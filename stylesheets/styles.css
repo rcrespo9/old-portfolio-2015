@@ -97,7 +97,6 @@ h2 {
 }
 
 /*portfolio*/
-
 .portfolio {
    background: url(../images/black_and_blue.png) center center no-repeat fixed;
   -webkit-background-size: cover;
@@ -143,5 +142,20 @@ a.screenshot {
 
 .novelists-galore{
   background: url(../images/novelists-galore.jpg) no-repeat;
+}
+
+.to-about {
+  margin-top: 60px;
+}
+
+.about-link{
+  font-size: 1.3em;
+  color: #00AB83;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.about-link:hover{
+  text-decoration: none;
 }
 
