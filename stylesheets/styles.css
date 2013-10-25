@@ -5,9 +5,40 @@ html,body {
   font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  top: 20px;
+}
+
+/*parallax*/
+.slide{
+  background-attachment: fixed;
+  width:100%;
+  height:100%;
+  position: relative;
+}
+
+.slide-down {
+  width: 75px;
+  margin: 0 auto 0 auto;
+  margin-top: 7%;
+  cursor: pointer;
+}
+
+.button{
+  display:block;
+  width:55px;
+  height:55px;
+  border: solid white;
+  border-radius: 100px;
+  background:url(../images/arrow.png) no-repeat;
+}
+
 /*menu*/
 .navigation {
-  position:fixed;
+  position:absolute;
   z-index:1;
   top:20px;
 }
@@ -40,23 +71,7 @@ html,body {
 	color:#fff;
 }
 
-.slide-down {
-  width: 75px;
-  margin: 0 auto 0 auto;
-  margin-top: 7%;
-  cursor: pointer;
-}
-
-.button{
-  display:block;
-  width:55px;
-  height:55px;
-  border: solid white;
-  border-radius: 100px;
-  background:url(../images/arrow.png) no-repeat;
-}
-
-/* custom container */
+/* introduction */
 .container-full {
   background: url(../images/blue_blur.jpg) center center fixed no-repeat;
   -webkit-background-size: cover;
@@ -79,4 +94,38 @@ html,body {
   margin-top:15%;
 }
 
+/*portfolio*/
+.portfolio {
+  background-color: #fff;
+}
+
+.portfolio-header {
+  color: #0C094F;
+}
+
+.work {
+  margin-top: 5%;
+}
+
+a.screenshot {
+  height: 275px;
+  display: inline-block;
+  width: 400px;
+  text-decoration: none;
+  text-indent: -10000px;
+  font-size: 0px;
+  line-height: 0px;
+}
+
+.tailored-tales{
+  background: url(../images/tailored-tales.jpg) no-repeat;
+}
+
+.afflatus{
+  background: url(../images/afflatus.jpg) no-repeat;
+}
+
+.novelists-galore{
+  background: url(../images/novelists-galore.jpg) no-repeat;
+}
 
