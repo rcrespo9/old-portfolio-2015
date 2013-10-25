@@ -1,9 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Roboto|Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Source+Sans+Pro|Ubuntu);
 
 html,body {
   height:100%;
   width: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h2 {
@@ -67,8 +67,7 @@ h2 {
 }
 
 .lead {
-  font-family: 'Abel', sans-serif;
-  font-size: 1.6em;
+  font-size: 1.7em;
 	color:#fff;
 }
 
