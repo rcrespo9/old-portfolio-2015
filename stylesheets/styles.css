@@ -150,12 +150,14 @@ a.screenshot {
 
 .about-link{
   font-size: 1.3em;
-  color: #00AB83;
+  color: #8FA671;
   cursor: pointer;
   text-transform: uppercase;
+  -webkit-transition: all .2s ease-in-out;
 }
 
-.about-link:hover{
+.about-link:hover, .active{
+  color: #CC543C;
   text-decoration: none;
 }
 
