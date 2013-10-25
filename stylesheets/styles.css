@@ -1,15 +1,18 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Source+Sans+Pro|Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Open+Sans:400, 700|Ubuntu);
 
 html,body {
   height:100%;
   width: 100%;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 h2 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
-  font-size: 2.1em;
+  letter-spacing: 5px;
+  font-size: 1.7em;
 }
 
 /*parallax*/
@@ -47,7 +50,7 @@ h2 {
   color:#fff;
   display:inline;
   font-weight:normal;
-  font-size: 18px;
+  font-size: 17px;
   letter-spacing: 1px;
   line-height: 45px;
   -webkit-transition: all .2s ease-in-out;
@@ -67,7 +70,7 @@ h2 {
 }
 
 .lead {
-  font-size: 1.7em;
+  font-size: 1.6em;
 	color:#fff;
 }
 
