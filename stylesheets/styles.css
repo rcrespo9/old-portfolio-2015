@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Roboto|Bitter);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Roboto|Ubuntu);
 
 html,body {
   height:100%;
@@ -7,9 +7,9 @@ html,body {
 }
 
 h2 {
-  font-family: 'Bitter', serif;
+  font-family: 'Ubuntu', sans-serif;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 2.1em;
 }
 
 /*parallax*/
@@ -67,7 +67,7 @@ h2 {
 }
 
 .lead {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-size: 1.6em;
 	color:#fff;
 }
@@ -97,7 +97,7 @@ h2 {
 /*portfolio*/
 
 .portfolio {
-   background: url(../images/portfolio_bg.jpg) center center no-repeat fixed;
+   background: url(../images/black_and_blue.png) center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
