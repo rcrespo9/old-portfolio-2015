@@ -146,9 +146,9 @@ span.roll {
   margin-top: 60px;
 }
 
-.about-link{
+a.about-link{
   font-size: 1.4em;
-  color: rgb(16,165,135);
+  color: #517360;
   cursor: pointer;
   text-transform: uppercase;
   -webkit-transition: all .2s ease-in-out;
@@ -157,8 +157,8 @@ span.roll {
   transition: all .2s ease-in-out;
 }
 
-.about-link:hover, .active{
-  color: #CC543C;
+a.about-link:hover{
+  color: #F2DC99;
   text-decoration: none;
   position: relative;
   top: -7px;
@@ -168,10 +168,10 @@ span.roll {
   transition: all .2s ease-out;
 }
 
-.about-link:hover:after {
+a.about-link:hover:after {
     display: block;
     position:relative;
-    top:7px;
+    top: 5px;
     width:100%;
     height:0;
     text-align:center;
