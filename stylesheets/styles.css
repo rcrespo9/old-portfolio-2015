@@ -123,25 +123,20 @@ a.screenshot {
   display: inline-block;
   width: 375px;
   margin: 10px;
-  text-decoration: none;
-  text-indent: -10000px;
-  font-size: 0px;
-  line-height: 0px;
   -webkit-box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.5);
   box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.5);
 }
 
-.tailored-tales{
-  background: url(../images/tailored-tales.jpg) no-repeat;
-}
-
-.afflatus{
-  background: url(../images/afflatus.jpg) no-repeat;
-}
-
-.novelists-galore{
-  background: url(../images/novelists-galore.jpg) no-repeat;
+span.roll {
+  background:url(../images/mag.png) center center no-repeat #000;
+  height: 212px;
+  position: absolute;
+  width: 375px;
+  z-index: 10;  
+  -webkit-box-shadow: 0px 0px 4px #000;
+  -moz-box-shadow: 0px 0px 4px  #000;
+  box-shadow: 0px 0px 4px  #000; 
 }
 
 .to-about {
@@ -160,4 +155,17 @@ a.screenshot {
   color: #CC543C;
   text-decoration: none;
 }
+
+/*.about-link:hover:after {
+    display: block;
+    position:relative;
+    top:5px;
+    width:100%;
+    height:0;
+    text-align:center;
+    content :"\25B2";
+    color:green;
+}*/
+
+
 
