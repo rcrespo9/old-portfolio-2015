@@ -54,6 +54,9 @@ h2 {
   letter-spacing: 1px;
   line-height: 45px;
   -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
   width:115px;
 }
 .navigation li:hover,.active {
@@ -145,27 +148,35 @@ span.roll {
 
 .about-link{
   font-size: 1.4em;
-  color: #8FA671;
+  color: rgb(16,165,135);
   cursor: pointer;
   text-transform: uppercase;
   -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .about-link:hover, .active{
   color: #CC543C;
   text-decoration: none;
+  position: relative;
+  top: -7px;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
 }
 
-/*.about-link:hover:after {
+.about-link:hover:after {
     display: block;
     position:relative;
-    top:5px;
+    top:7px;
     width:100%;
     height:0;
     text-align:center;
-    content :"\25B2";
-    color:green;
-}*/
+    content: url(../images/down-arrow.png);
+}
 
 
 
