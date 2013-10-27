@@ -153,6 +153,15 @@ h2 {
   border: solid white;
   border-radius: 100px;
   background:url(../images/arrow.png) no-repeat;
+  opacity: .5;
+    -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.button:hover{
+  opacity: 1;
 }
 
 /*menu*/
