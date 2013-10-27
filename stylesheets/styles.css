@@ -221,11 +221,12 @@ h2 {
 /*portfolio*/
 
 #slide2{
-  background-image: url(../images/black_and_blue.png);
+/*  background-image: url(../images/black_and_blue.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
+  background-color: #020312;
 }
 
 .portfolio-header {
