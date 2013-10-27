@@ -16,7 +16,7 @@ h2 {
 }
 
 /*fadein animation*/
-.animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1.3s;-moz-animation-duration:1.3s;-ms-animation-duration:1.3s;-o-animation-duration:1.3s;animation-duration:1.3s;}.animated.hinge{-webkit-animation-duration:1.3s;-moz-animation-duration:1.3s;-ms-animation-duration:1.3s;-o-animation-duration:1.3s;animation-duration:1.3s;}@-webkit-keyframes fadeInUp {
+.animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes fadeInUp {
   0% {
     opacity: 0;
     -webkit-transform: translateY(20px);
@@ -179,19 +179,6 @@ h2 {
   color: #F09979;
 }
 
-/*marketing*/
-.introduction {
-  font-family: 'Alegreya', serif;
-  font-size:6.5em;
-  font-weight: 700;
-  color:#fff;
-}
-
-.lead {
-  font-size: 1.6em;
-	color:#fff;
-}
-
 /* introduction */
 .container-full {
   background: url(../images/blue_blur.jpg) center center fixed no-repeat;
@@ -208,6 +195,18 @@ h2 {
 .container-full a {
   color:#efefef;
   text-decoration:none;
+}
+
+.introduction {
+  font-family: 'Alegreya', serif;
+  font-size:6.5em;
+  font-weight: 700;
+  color:#fff;
+}
+
+.lead {
+  font-size: 1.6em;
+  color:#fff;
 }
 
 .v-center {
