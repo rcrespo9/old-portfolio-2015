@@ -181,7 +181,7 @@ h2 {
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  width:115px;
+  padding: 10px;
 }
 .navigation li:hover,.active {
   cursor:pointer;
