@@ -154,10 +154,10 @@ h2 {
   border-radius: 100px;
   background:url(../images/arrow.png) no-repeat;
   opacity: .5;
-    -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+    -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
 }
 
 .button:hover{
