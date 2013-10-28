@@ -200,12 +200,16 @@ p {
 }
 
 /* introduction */
-#slide1 {
+.container-full{
   background-image: url(../images/blue_blur.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  overflow: hidden;
 }
 
 .container-full a {
@@ -230,13 +234,16 @@ p {
 }
 
 /*portfolio*/
-
-#slide2{
-  background-image: url(../images/black_and_blue.png);
+.portfolio {
+  background: url(../images/black_and_blue.png) center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  overflow: hidden;
 }
 
 .portfolio-header {
@@ -307,7 +314,6 @@ a.about-link:hover:after {
 }
 
 /*about me*/
-
  .about-header {
   color: #5e6f92;
  }
