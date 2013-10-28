@@ -239,7 +239,7 @@ p {
 }
 
 .portfolio-header {
-  color: #fff;
+  color: #f2f2f2;
   margin-bottom: 20px;
 }
 
@@ -273,7 +273,7 @@ span.roll {
   margin-top: 60px;
 }
 
-a.about-link{
+/*a.about-link{
   font-size: 1.4em;
   color: #517360;
   cursor: pointer;
@@ -293,9 +293,35 @@ a.about-link:hover{
   -moz-transition: all .2s ease-out;
   -o-transition: all .2s ease-out;
   transition: all .2s ease-out;
+}*/
+
+.about-link {
+-webkit-transition: background-color .5s cubic-bezier(0.25,0.46,0.45,0.94);
+-moz-transition: background-color .5s cubic-bezier(0.25,0.46,0.45,0.94);
+-o-transition: background-color .5s cubic-bezier(0.25,0.46,0.45,0.94);
+transition: background-color .5s cubic-bezier(0.25,0.46,0.45,0.94);
+-webkit-box-shadow: 0 5px 0 #de7e07;
+-moz-box-shadow: 0 5px 0 #de7e07;
+box-shadow: 0 5px 0 #de7e07;
+border-radius: .25em;
+background: #f89820;
+color: #f2f2f2;
+padding: .5em 1em;
+font-weight: 700;
+text-decoration: none;
+text-shadow: 0 1px 0 rgba(0,0,0,0.25);
+word-wrap: nowrap;
+text-transform: uppercase;
+letter-spacing: .05em;
+-webkit-font-smoothing: antialiased;
 }
 
-a.about-link:hover:after {
+.about-link:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*a.about-link:hover:after {
     display: block;
     position:relative;
     top: 5px;
@@ -303,7 +329,7 @@ a.about-link:hover:after {
     height:0;
     text-align:center;
     content: url(../images/down-arrow.png);
-}
+}*/
 
 /*about me*/
  .about-header {
