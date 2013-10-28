@@ -17,7 +17,7 @@
 			verticalScrolling: true,
 			horizontalOffset: 0,
 			verticalOffset: 0,
-			responsive: true,
+			responsive: false,
 			parallaxBackgrounds: true,
 			parallaxElements: true,
 			hideDistantElements: true,
