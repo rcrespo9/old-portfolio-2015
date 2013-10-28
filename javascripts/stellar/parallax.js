@@ -2,7 +2,7 @@ jQuery(document).ready(function ($) {
 
 
     //initialise Stellar.js
-    $(window).stellar({ horizontalScrolling: false });
+    $(window).stellar();
 
     //Cache some variables
     var links = $('.navigation').find('li');

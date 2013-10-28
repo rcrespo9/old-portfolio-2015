@@ -235,7 +235,7 @@ p {
 
 /*portfolio*/
 .portfolio {
-  background: url(../images/black_and_blue.png) center center fixed;
+  background: url(../images/black_and_blue.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
