@@ -8,7 +8,7 @@ var o = {
 	diagram: function(){
 		var r = Raphael('diagram', 600, 600),
 			rad = 73,
-			defaultText = 'Skills',
+			defaultText = 'Core Skills',
 			speed = 250;
 		
 		r.circle(300, 300, 85).attr({ stroke: 'none', fill: '#193340' });
