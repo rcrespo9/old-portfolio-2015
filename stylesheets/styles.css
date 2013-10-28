@@ -3,8 +3,6 @@
 html,body {
   height:100%;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
 }
 
 h2 {
@@ -13,6 +11,19 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 1.8em;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.6em;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 /*fadein animation*/
@@ -301,6 +312,16 @@ a.about-link:hover:after {
   color: #5e6f92;
  }
 
+ .who-i-am{
+  color: #666;
+ }
+
+ .bio {
+  color: #555;
+  font-size: 1.4em;
+  margin-top: 12%;
+ }
+
  #diagram {
 float:right;
 width:600px;
@@ -309,10 +330,6 @@ height:600px;
 
 .get {
 display:none;
-}
-
-.skills {
-  color: black;
 }
 
 
