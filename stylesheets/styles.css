@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Open+Sans:400, 700|Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Open+Sans:400, 700);
 
 html,body {
   height:100%;
@@ -298,8 +298,22 @@ a.about-link:hover:after {
 /*about me*/
 
  .about-header {
-  color: blue;
+  color: #5e6f92;
  }
+
+ #diagram {
+float:right;
+width:600px;
+height:600px;
+}
+
+.get {
+display:none;
+}
+
+.skills {
+  color: black;
+}
 
 
 
