@@ -17,8 +17,8 @@ h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 1.6em;
+  letter-spacing: 3px;
+  font-size: 1.5em;
 }
 
 p {
@@ -200,7 +200,6 @@ p {
 }
 
 /* introduction */
-
 #slide1{
   background-image: url(../images/blue_blur.jpg);
   -webkit-background-size: cover;
@@ -311,9 +310,9 @@ a.about-link:hover:after {
   color: #5e6f92;
  }
 
-/* .bio {
-  margin-top: 5%;
- }*/
+ .bio {
+  margin-top: 1%;
+ }
 
  .bio-header {
   color: #666;
