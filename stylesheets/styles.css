@@ -273,28 +273,6 @@ span.roll {
   margin-top: 60px;
 }
 
-/*a.about-link{
-  font-size: 1.4em;
-  color: #517360;
-  cursor: pointer;
-  text-transform: uppercase;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  -o-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-}
-
-a.about-link:hover{
-  color: #F2DC99;
-  text-decoration: none;
-  position: relative;
-  top: -7px;
-  -webkit-transition: all .2s ease-out;
-  -moz-transition: all .2s ease-out;
-  -o-transition: all .2s ease-out;
-  transition: all .2s ease-out;
-}*/
-
 .about-link {
 -webkit-transition: background-color .5s cubic-bezier(0.25,0.46,0.45,0.94);
 -moz-transition: background-color .5s cubic-bezier(0.25,0.46,0.45,0.94);
@@ -319,7 +297,32 @@ letter-spacing: .05em;
 .about-link:hover{
   text-decoration: none;
   cursor: pointer;
+  color: #f2f2f2;
+  opacity: .9;
 }
+
+/*a.about-link{
+  font-size: 1.4em;
+  color: #517360;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+a.about-link:hover{
+  color: #F2DC99;
+  text-decoration: none;
+  position: relative;
+  top: -7px;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}*/
+
 
 /*a.about-link:hover:after {
     display: block;
