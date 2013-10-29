@@ -244,6 +244,7 @@ a:hover{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  z-index: -10;
 }
 
 .portfolio-header {
