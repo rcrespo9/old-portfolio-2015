@@ -324,13 +324,16 @@ letter-spacing: .05em;
 }
 
 /*about me*/
+ .about-me{
+ }
+
  .about-header {
   color: #5e6f92;
  }
 
- .bio {
+ /*.bio {
   margin-top: 1%;
- }
+ }*/
 
  .bio-header {
   color: #666;
