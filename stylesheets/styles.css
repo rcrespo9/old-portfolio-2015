@@ -331,9 +331,9 @@ letter-spacing: .05em;
   color: #5e6f92;
  }
 
- /*.bio {
+ .bio {
   margin-top: 1%;
- }*/
+ }
 
  .bio-header {
   color: #666;
@@ -341,7 +341,7 @@ letter-spacing: .05em;
 
  .bio-text {
   color: #555;
-  font-size: 1.2em;
+  font-size: 1.1em;
  }
 
  #diagram {
