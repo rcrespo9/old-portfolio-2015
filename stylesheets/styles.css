@@ -1,29 +1,27 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Open+Sans:400, 700);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700|ABeeZee|Crete+Round);
 
 html,body {
   height:100%;
   width: 100%;
+    font-family: 'ABeeZee', sans-serif;
 }
 
 h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-family: 'Crete Round', serif;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 1.8em;
+  letter-spacing: .1em;
+  font-size: 2.3em;
 }
 
 h3 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-family: 'Crete Round', serif;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: .1em;
   font-size: 1.5em;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-family: 'ABeeZee', sans-serif;
 }
 
 a {
@@ -241,7 +239,7 @@ a:hover{
 }
 
 .lead {
-  font-size: 1.6em;
+  font-size: 1.5em;
   color:#fff;
 }
 
@@ -307,7 +305,7 @@ background: #2E708A;
 color: #f2f2f2;
 padding: .5em 1em;
 font-weight: 700;
-/*font-size: 1.2em;*/
+font-size: 1.2em;
 text-shadow: 0 1px 0 rgba(0,0,0,0.25);
 word-wrap: nowrap;
 text-transform: uppercase;
@@ -324,23 +322,23 @@ letter-spacing: .05em;
 }
 
 /*about me*/
- .about-me{
- }
-
+#slide3{
+  background-color: #fff;
+}
  .about-header {
-  color: #5e6f92;
+  color: #00032E;
  }
 
- .bio {
+/* .bio {
   margin-top: 1%;
- }
+ }*/
 
  .bio-header {
-  color: #666;
+  color: #26292a;
  }
 
  .bio-text {
-  color: #555;
+  color: #41454c;
   font-size: 1.1em;
  }
 
