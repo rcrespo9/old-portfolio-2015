@@ -208,7 +208,7 @@ a:hover{
 }
 
 /* introduction */
-.container-full{
+/*.container-full{
   background: url(../images/blue_blur.jpg) center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -219,14 +219,14 @@ a:hover{
   min-height:100%;
   overflow: hidden;
 
-}
-/*#slide1{
+}*/
+#slide1{
   background-image: url(../images/blue_blur.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
+}
 
 .container-full a {
   color:#efefef;
