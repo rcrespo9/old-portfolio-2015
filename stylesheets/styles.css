@@ -208,13 +208,25 @@ a:hover{
 }
 
 /* introduction */
-#slide1{
+.container-full{
+  background: url(../images/blue_blur.jpg) center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  overflow: hidden;
+
+}
+/*#slide1{
   background-image: url(../images/blue_blur.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 .container-full a {
   color:#efefef;
