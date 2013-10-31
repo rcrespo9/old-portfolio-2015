@@ -373,3 +373,9 @@ display:none;
 .social-icon {
   padding: 10px;
 }
+
+.scroll-top {
+  position: absolute;
+  vertical-align: baseline;
+  right: 9px;
+}
