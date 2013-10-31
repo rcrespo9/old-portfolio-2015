@@ -304,7 +304,7 @@ background: #2E708A;
 color: #f2f2f2;
 padding: .5em 1em;
 font-weight: 700;
-font-size: 1.2em;
+font-size: 1.1em;
 text-shadow: 0 1px 0 rgba(0,0,0,0.25);
 word-wrap: nowrap;
 text-transform: uppercase;
@@ -355,7 +355,7 @@ display:none;
 #footer{
   background-color: #0b1f2c;
   position:relative;
-  height:200px;
+  height:100px;
   bottom:0;
   left:0;
   right:0;
@@ -365,6 +365,11 @@ display:none;
   color: #f2f2f2;
 }
 
-.about-links {
-  color: #1863c2;
+.social-icons {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.social-icon {
+  padding: 10px;
 }
