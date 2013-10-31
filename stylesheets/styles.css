@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700|ABeeZee|Crete+Round);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700|ABeeZee|Crete+Round|Antic+Slab);
 
 html,body {
   height:100%;
@@ -254,7 +254,6 @@ a:hover{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  z-index: -10;
 }
 
 .portfolio-header {
@@ -292,7 +291,7 @@ span.roll {
   margin-top: 60px;
 }
 
-.about-link {
+.about-button {
 -webkit-transition: background-color .5s cubic-bezier(0.25,0.46,0.45,0.94);
 -moz-transition: background-color .5s cubic-bezier(0.25,0.46,0.45,0.94);
 -o-transition: background-color .5s cubic-bezier(0.25,0.46,0.45,0.94);
@@ -313,7 +312,7 @@ letter-spacing: .05em;
 -webkit-font-smoothing: antialiased;
 }
 
-.about-link:hover{
+.about-button:hover{
   -webkit-box-shadow: 0 5px 0 rgba(31,77,94,0.7);
   -moz-box-shadow: 0 5px 0 rgba(31,77,94,0.7);
   box-shadow: 0 5px 0 rgba(31,77,94,0.7);
@@ -324,9 +323,13 @@ letter-spacing: .05em;
 /*about me*/
 #slide3{
   background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
  .about-header {
-  color: #00032E;
+  color: #161926;
  }
 
 /* .bio {
@@ -334,11 +337,11 @@ letter-spacing: .05em;
  }*/
 
  .bio-header {
-  color: #26292a;
+  color: #3f3f3f;
  }
 
  .bio-text {
-  color: #41454c;
+  color: #666;
   font-size: 1.1em;
  }
 
@@ -352,5 +355,20 @@ height:600px;
 display:none;
 }
 
+/*contact me*/
+#foot{
+  background-color: #193340;
+  position:relative;
+  height:200px;
+  bottom:0;
+  left:0;
+  right:0;
+}
 
+.contact-me {
+  color: #f2f2f2;
+}
 
+.about-links {
+  color: #1863c2;
+}
