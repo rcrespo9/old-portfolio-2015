@@ -364,17 +364,66 @@ display:none;
 }
 
 .social-icons {
-  margin-top: 8px;
+  margin-top: 55px;
   text-align: center;
 }
 
 .social-icon {
-  padding: 10px;
+  padding: 43px;
 }
 
-.scroll-top {
+#email {
+  background: url(../images/email-sprite-sheet.png) no-repeat;
+  background-position: 0 -114px;
+  height: 64px;
+  width: 64px;
+}
+
+#email:hover{
+  background-position: 0 0;
+  height: 64px;
+  width: 64px;
+}
+
+#linkedin {
+  background: url(../images/linkedin-sprite-sheet.png) no-repeat;
+  background-position: 0 -114px;
+  height: 64px;
+  width: 64px; 
+}
+
+#linkedin:hover{
+  background-position: 0 0;
+  height: 64px;
+  width: 64px;
+}
+
+#github {
+  background: url(../images/github-sprite-sheet.png) no-repeat;
+  background-position: 0 -114px;
+  height: 64px;
+  width: 64px; 
+}
+
+#github:hover{
+  background-position: 0 0;
+  height: 64px;
+  width: 64px;
+}
+
+#scroll-top {
+  background: url(../images/arrow-sprite-sheet.png) no-repeat;  
+  background-position: 0 -98px;
+  height: 48px;
+  width: 48px;
   position: absolute;
-  vertical-align: baseline;
-  right: 9px;
+  bottom: 43px;
+  right: 10px;
+}
+
+#scroll-top:hover {
+  background-position: 0 0;
+  height: 48px;
+  width: 48px;
 }
 /*end contact me*/
