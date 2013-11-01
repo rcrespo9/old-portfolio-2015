@@ -33,6 +33,17 @@ a:hover{
   cursor: pointer;
 }
 
+@media screen and ( max-width: 700px ) {
+  h2 {
+    font-size: 1.7em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+}
+
+
 /*fadein animation*/
 .animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes fadeInUp {
   0% {
@@ -207,6 +218,12 @@ a:hover{
   cursor:pointer;
   color: #F09979;
 }
+
+@media screen and ( max-width: 700px ) {
+  .navigation li {
+    font-size: 15px;
+  }
+}
 /*end menu*/
 
 /* introduction */
@@ -237,6 +254,20 @@ a:hover{
 
 .v-center {
   margin-top:15%;
+}
+
+@media screen and ( max-width: 700px ) {
+  .introduction {
+    font-size: 4.5em;
+  }
+
+  .lead {
+    font-size: 1.5em;
+  }
+
+  .v-center {
+    margin-top: 30%;
+  }
 }
 /*end introduction*/
 
@@ -345,6 +376,17 @@ height:600px;
 
 .get {
 display:none;
+}
+
+@media screen and ( max-width: 700px ) {
+
+  .bio {
+    margin-top: 7%;
+  }
+
+  .bio-text {
+    font-size: .9em;
+  }
 }
 /*end about me*/
 
