@@ -147,6 +147,8 @@ a:hover{
   -o-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
+/*end fade animation*/
+
 
 /*parallax*/
 .slide{
@@ -180,6 +182,7 @@ a:hover{
 .button:hover{
   opacity: 1;
 }
+/*parallax*/
 
 /*menu*/
 .navigation {
@@ -204,20 +207,9 @@ a:hover{
   cursor:pointer;
   color: #F09979;
 }
+/*end menu*/
 
 /* introduction */
-/*.container-full{
-  background: url(../images/blue_blur.jpg) center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin: 0 auto;
-  width: 100%;
-  min-height:100%;
-  overflow: hidden;
-
-}*/
 #slide1{
   background-image: url(../images/blue_blur.jpg);
   -webkit-background-size: cover;
@@ -246,6 +238,8 @@ a:hover{
 .v-center {
   margin-top:15%;
 }
+/*end introduction*/
+
 
 /*portfolio*/
 #slide2 {
@@ -319,6 +313,8 @@ letter-spacing: .05em;
   color: #f2f2f2;
   background: rgba(46,112,138,0.75);
 }
+/*end portfolio*/
+
 
 /*about me*/
 #slide3{
@@ -350,6 +346,8 @@ height:600px;
 .get {
 display:none;
 }
+/*end about me*/
+
 
 /*contact me*/
 #footer{
@@ -379,3 +377,4 @@ display:none;
   vertical-align: baseline;
   right: 9px;
 }
+/*end contact me*/
