@@ -76,10 +76,9 @@ jQuery(document).ready(function ($) {
 
     });
     
-    // activing links event
+    // activating links event
     $('#slide2 .screenshot, #slide4 .social-link').on('click', function(){
         var href = $(this).attr('href');
         window.open(href, '_blank');
     });
-
 });
