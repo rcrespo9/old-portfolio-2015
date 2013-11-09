@@ -219,9 +219,13 @@ a:hover{
   color: #F09979;
 }
 
+.navigation li:visited {
+  color:#fff;
+}
+
 @media (max-width: 767px) {
   .navigation li {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 /*end menu*/
