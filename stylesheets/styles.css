@@ -291,33 +291,22 @@ a:hover{
 }
 
 .work {
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 a.screenshot {
-  height: 212px;
+  height: 198px;
   display: inline-block;
-  width: 375px;
+  width: 350px;
   margin: 10px;
   text-align: center;
-  -webkit-box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.5);
+/*  -webkit-box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.5);
-  box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.5);
-}
-
-span.roll {
-  background:url(../images/mag.png) center center no-repeat #000;
-  height: 212px;
-  position: absolute;
-  width: 375px;
-  z-index: 10;  
-  -webkit-box-shadow: 0px 0px 4px #000;
-  -moz-box-shadow: 0px 0px 4px  #000;
-  box-shadow: 0px 0px 4px  #000; 
+  box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.5);*/
 }
 
 .to-about {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .about-button {
