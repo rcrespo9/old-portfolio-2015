@@ -33,7 +33,7 @@ a:hover{
   cursor: pointer;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   h2 {
     font-size: 1.7em;
   }
@@ -223,7 +223,7 @@ a:hover{
   color:#fff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .navigation li {
     font-size: 10px;
   }
@@ -300,9 +300,6 @@ a.screenshot {
   width: 350px;
   margin: 10px;
   text-align: center;
-/*  -webkit-box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.5);
-  box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.5);*/
 }
 
 .to-about {
@@ -371,7 +368,7 @@ height:600px;
 display:none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
 
   .bio {
     margin-top: 7%;
@@ -401,6 +398,13 @@ display:none;
 .social-icons {
   margin-top: 55px;
   text-align: center;
+}
+
+@media (max-width: 480px) {
+
+  .social-icons {
+    margin-left: 35px;
+  }
 }
 
 .social-icon {
