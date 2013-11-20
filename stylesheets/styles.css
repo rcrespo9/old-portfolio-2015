@@ -334,6 +334,12 @@ letter-spacing: .05em;
   color: #f2f2f2;
   background: rgba(46,112,138,0.75);
 }
+
+@media (max-width: 480px) {
+  #slide2 {
+    overflow-y: auto;
+  }
+}
 /*end portfolio*/
 
 
