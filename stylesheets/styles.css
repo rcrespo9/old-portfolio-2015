@@ -337,7 +337,7 @@ letter-spacing: .05em;
 
 @media (max-width: 480px) {
   #slide2 {
-    overflow-y: auto;
+    height: 1050px;
   }
 }
 /*end portfolio*/
