@@ -4,7 +4,8 @@ jQuery(document).ready(function ($) {
     //initialise Stellar.js
     $(window).stellar({
         responsive: true,
-        horizontalScrolling: false
+        horizontalScrolling: false,
+        parallaxBackgrounds: false
     });
 
     //Cache some variables
