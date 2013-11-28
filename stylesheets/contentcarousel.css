@@ -54,7 +54,7 @@
 	left:5px;
 	right:5px;
 	bottom:5px;
-	background:#fff;
+	background:#FFFBF5;
 	overflow:hidden;
 	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
 	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
@@ -75,18 +75,6 @@
 }
 .ca-item-4 .ca-icon{
 	background-image:url(../images/animal4.png);
-}
-.ca-item-5 .ca-icon{
-	background-image:url(../images/animal5.png);
-}
-.ca-item-6 .ca-icon{
-	background-image:url(../images/animal6.png);
-}
-.ca-item-7 .ca-icon{
-	background-image:url(../images/animal7.png);
-}
-.ca-item-8 .ca-icon{
-	background-image:url(../images/animal8.png);
 }
 .ca-item h3{
 	font-family: 'Coustard', sans-serif;

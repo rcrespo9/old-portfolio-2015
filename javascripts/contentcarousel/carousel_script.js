@@ -1,1 +1,0 @@
-$('#ca-container').contentcarousel();

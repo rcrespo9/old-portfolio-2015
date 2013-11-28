@@ -1,27 +1,21 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700|ABeeZee|Crete+Round|Antic+Slab);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Open+Sans:400,800);
 
 html,body {
   height:100%;
   width: 100%;
-    font-family: 'ABeeZee', sans-serif;
 }
 
 h2 {
-  font-family: 'Crete Round', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: .1em;
   font-size: 2em;
 }
 
-h3 {
-  font-family: 'Crete Round', serif;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  font-size: 1.5em;
-}
-
 p {
-  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 a {
@@ -42,124 +36,6 @@ a:hover{
     font-size: .8em;
   }
 }
-
-
-/*fadein animation*/
-.animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(20px);
-  } 100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-  }
-}
-
-@-moz-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -moz-transform: translateY(20px);
-  }
-  
-  100% {
-    opacity: 1;
-    -moz-transform: translateY(0);
-  }
-}
-
-@-o-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -o-transform: translateY(20px);
-  }
-  
-  100% {
-    opacity: 1;
-    -o-transform: translateY(0);
-  }
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  -moz-animation-name: fadeInUp;
-  -o-animation-name: fadeInUp;
-  animation-name: fadeInUp;
-}
-@-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-20px);
-  }
-  
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-  }
-}
-
-@-moz-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -moz-transform: translateY(-20px);
-  }
-  
-  100% {
-    opacity: 1;
-    -moz-transform: translateY(0);
-  }
-}
-
-@-o-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -o-transform: translateY(-20px);
-  }
-  
-  100% {
-    opacity: 1;
-    -o-transform: translateY(0);
-  }
-}
-
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fadeInDown {
-  -webkit-animation-name: fadeInDown;
-  -moz-animation-name: fadeInDown;
-  -o-animation-name: fadeInDown;
-  animation-name: fadeInDown;
-}
-
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  -moz-animation-name: fadeInUp;
-  -o-animation-name: fadeInUp;
-  animation-name: fadeInUp;
-}
-/*end fade animation*/
-
 
 /*parallax*/
 .slide{
@@ -193,7 +69,7 @@ a:hover{
 .button:hover{
   opacity: 1;
 }
-/*parallax*/
+/*end parallax*/
 
 /*menu*/
 .navigation {
@@ -204,9 +80,9 @@ a:hover{
 .navigation li {
   color:#fff;
   display:inline;
-  font-weight:normal;
-  font-size: 16px;
-  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 1.1em;
+  letter-spacing: 2px;
   line-height: 45px;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -246,14 +122,15 @@ a:hover{
 
 .introduction {
   font-family: 'Alegreya', serif;
-  font-size:6.5em;
+  font-size: 6.5em;
   font-weight: 700;
   color:#fff;
 }
 
 .lead {
-  font-size: 1.5em;
+  font-size: 1.4em;
   color:#fff;
+  letter-spacing: 1px;
 }
 
 .v-center {
@@ -286,20 +163,12 @@ a:hover{
 }
 
 .portfolio-header {
-  color: navy;
+  color: #172934;
   margin-bottom: 20px;
 }
 
 .work {
   margin-top: 2%;
-}
-
-a.screenshot {
-  height: 198px;
-  display: inline-block;
-  width: 350px;
-  margin: 10px;
-  text-align: center;
 }
 
 .to-about {
@@ -334,56 +203,23 @@ letter-spacing: .05em;
   color: #f2f2f2;
   background: rgba(46,112,138,0.75);
 }
-
-@media (max-width: 480px) {
-  #slide2 {
-    height: 1050px;
-  }
-}
 /*end portfolio*/
 
 
 /*about me*/
 #slide3{
-  background-color: #fff;
+  background-color: #0f1219;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
- .about-header {
-  color: #172934;
- }
-
- .bio-header {
-  color: #364756;
- }
-
- .bio-text {
-  color: #222;
-  font-size: 1.1em;
- }
-
- #diagram {
-float:right;
-width:600px;
-height:600px;
+  color: #fff;
 }
 
-.get {
-display:none;
+.bio-text {
+  font-size: 1.5em;
 }
 
-@media (max-width: 480px) {
-
-  .bio {
-    margin-top: 7%;
-  }
-
-  .bio-text {
-    font-size: .67em;
-  }
-}
 /*end about me*/
 
 
