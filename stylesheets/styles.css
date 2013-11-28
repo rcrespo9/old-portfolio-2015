@@ -278,7 +278,7 @@ a:hover{
 
 /*portfolio*/
 #slide2 {
-  background-image: url(../images/black_and_blue.png);
+  background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -286,7 +286,7 @@ a:hover{
 }
 
 .portfolio-header {
-  color: #f2f2f2;
+  color: navy;
   margin-bottom: 20px;
 }
 
