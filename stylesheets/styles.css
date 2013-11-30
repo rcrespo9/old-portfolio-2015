@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Open+Sans:400,800);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Open+Sans:400,700);
 
 html,body {
   height:100%;
@@ -7,7 +7,7 @@ html,body {
 
 h2 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .1em;
   font-size: 2em;
@@ -208,7 +208,7 @@ letter-spacing: .05em;
 
 /*about me*/
 #slide3{
-  background-color: #0f1219;
+  background-color: #08233e;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
