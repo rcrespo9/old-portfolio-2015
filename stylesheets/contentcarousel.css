@@ -1,9 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Open+Sans:400,700);
+
 /* Circular Content Carousel Style */
 .ca-container{
 	position:relative;
 	margin:25px auto 20px auto;
 	width:990px;
-	height:450px;
+	height:480px;
 }
 .ca-wrapper{
 	width:100%;
@@ -26,7 +28,7 @@
 	background: #ccbda2;
 	text-align:center;
 	color: white;
-	font-family: "Georgia","Times New Roman",serif;
+	font-family: "Open Sans", sans-serif;
 	font-style:italic;
 	text-shadow:1px 1px 1px #897c63;
 }
@@ -86,8 +88,37 @@
 .ca-item-4 .ca-icon{
 	background-image:url(../images/afflatus-placeit.png);
 }
+
+.ca-icon a.screenshot-button {
+	box-shadow: none;
+	border: 0;
+	color: #fff;
+	font-weight: 400;
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase;
+	background: #ed8d6c;
+	line-height: 18em;
+	position: relative;
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+	font-size: 0.875em;
+	padding: 14px 32px 16px;
+	z-index: 1;
+}
+
+.ca-item-main:hover .ca-icon a.screenshot-button {
+	opacity: 1;
+}
+
+.ca-item-main .ca-icon a.screenshot-button:hover {
+	opacity: .9;
+}
+
 .ca-item h3{
-	font-family: 'Coustard', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 	text-transform:uppercase;
 	font-size:30px;
 	color:#000;
@@ -97,7 +128,8 @@
 	text-shadow: 0px 1px 1px #e4ebe9;
 }
 .ca-item h4{
-	font-family: "Georgia","Times New Roman",serif;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
 	font-style:italic;
 	font-size:12px;
 	text-align:left;
@@ -120,38 +152,11 @@
 	text-indent:0px;
 }
 
-.ca-icon a.screenshot-button {
-	box-shadow: none;
-	border: 0;
-	color: #fff;
-	font-weight: 400;
-	font-family: "Open Sans", sans-serif;
-	text-transform: uppercase;
-	background: #ed8d6c;
-	line-height: 18em;
-	position: relative;
-	opacity: 0;
-	-webkit-transition: all 0.15s ease-in-out;
-	-moz-transition: all 0.15s ease-in-out;
-	transition: all 0.15s ease-in-out;
-	font-size: 0.875em;
-	padding: 14px 32px 16px;
-	z-index: 1;
-}
-
-.ca-item-main:hover .ca-icon a.screenshot-button {
-	opacity: .8;
-}
-
-.ca-item-main .ca-icon a.screenshot-button:hover {
-	opacity: 1;
-}
-
 .ca-content-wrapper{
 	background:#b0ccc6;
 	position:absolute;
 	width:0px; /* expands to width of the wrapper minus 1 element */
-	height:440px;
+	height:470px;
 	top:5px;
 	text-align:left;
 	z-index:10000;
@@ -163,8 +168,9 @@
 }
 .ca-content-text{
 	font-size: 14px;
-	font-style: italic;
-	font-family: "Georgia","Times New Roman",serif;
+	/*font-style: italic;*/
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
 	margin:10px 20px;
 	padding:10px 20px;
 	line-height:24px;
@@ -177,7 +183,8 @@
 	font-size:32px;
 	padding-bottom:5px;
 	color:#000;
-	font-family: 'Coustard', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 	color:#60817a;
 	border-bottom:2px solid #99bcb4;
 	text-shadow: 1px 1px 1px #99BCB4;
@@ -195,7 +202,7 @@
 	background:#000;
 	padding:3px 6px;
 	font-size:14px;
-	font-family: "Georgia","Times New Roman",serif;
+	font-family: "Open Sans", sans-serif;
 	font-style:italic;
 }
 .ca-content ul li a:hover{
