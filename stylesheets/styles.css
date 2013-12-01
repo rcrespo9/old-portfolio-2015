@@ -155,7 +155,7 @@ a:hover{
 
 /*portfolio*/
 #slide2 {
-  background-color: #fff;
+  background-color: transparent;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -163,7 +163,7 @@ a:hover{
 }
 
 .portfolio-header {
-  color: #172934;
+  color: #212a45;
   margin-bottom: 20px;
 }
 
@@ -208,7 +208,7 @@ letter-spacing: .05em;
 
 /*about me*/
 #slide3{
-  background-color: #08233e;
+  background-color: #212a45;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
