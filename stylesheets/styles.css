@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Open+Sans:400,700,800);
 
 html,body {
   height:100%;
@@ -7,10 +7,10 @@ html,body {
 
 h2 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: .1em;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 p {
@@ -162,9 +162,13 @@ a:hover{
   background-size: cover;
 }
 
+.portfolio {
+  margin-top: 5%;
+}
+
 .portfolio-header {
-  color: #212a45;
-  margin-bottom: 20px;
+  color: #183355;
+  margin-bottom: 80px;
 }
 
 .work {
@@ -208,16 +212,33 @@ letter-spacing: .05em;
 
 /*about me*/
 #slide3{
-  background-color: #212a45;
+  background-color: #152732;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.about-me {
   color: #fff;
+  line-height: 32.5px;
+}
+
+.about-header {
+  margin-top: 3%;
+}
+
+.bio {
+  margin-top: 2%;
+}
+
+.bio-intro {
+  font-size: 1.5em;
 }
 
 .bio-text {
-  font-size: 1.5em;
+  font-size: 1.25em;
+  margin-bottom: 2em;
 }
 
 /*end about me*/
