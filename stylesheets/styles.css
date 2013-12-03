@@ -210,7 +210,7 @@ a:hover{
 
 /*contact me*/
 #footer{
-  background-color: #0b1f2c;
+  background-color: #fff;
   position:relative;
   height:100px;
   bottom:0;
@@ -223,7 +223,7 @@ a:hover{
 }
 
 .social-icons {
-  margin-top: 55px;
+  margin-top: 60px;
   text-align: center;
 }
 
@@ -238,58 +238,39 @@ a:hover{
   padding: 43px;
 }
 
-#email {
-  background: url(../images/email-sprite-sheet.png) no-repeat;
-  background-position: 0 -114px;
-  height: 64px;
-  width: 64px;
+#pinterest {
+  background: url(../images/social-icons.png) no-repeat -6px -576px;
+  width: 52px;
+  height: 52px;
 }
 
-#email:hover{
-  background-position: 0 0;
-  height: 64px;
-  width: 64px;
+#pinterest:hover{
+  background: url(../images/social-icons.png) no-repeat -6px -462px;
+  width: 52px;
+  height: 52px;
 }
 
 #linkedin {
-  background: url(../images/linkedin-sprite-sheet.png) no-repeat;
-  background-position: 0 -114px;
-  height: 64px;
-  width: 64px; 
+  background: url(../images/social-icons.png) no-repeat -6px -348px;
+  width: 52px;
+  height: 52px; 
 }
 
 #linkedin:hover{
-  background-position: 0 0;
-  height: 64px;
-  width: 64px;
+  background: url(../images/social-icons.png) no-repeat -6px -234px;
+  width: 52px;
+  height: 52px;
 }
 
 #github {
-  background: url(../images/github-sprite-sheet.png) no-repeat;
-  background-position: 0 -114px;
-  height: 64px;
-  width: 64px; 
+  background: url(../images/social-icons.png) no-repeat -6px -120px;
+  width: 52px;
+  height: 52px;
 }
 
 #github:hover{
-  background-position: 0 0;
-  height: 64px;
-  width: 64px;
-}
-
-#scroll-top {
-  background: url(../images/arrow-sprite-sheet.png) no-repeat;  
-  background-position: 0 -98px;
-  height: 48px;
-  width: 48px;
-  position: absolute;
-  bottom: 43px;
-  right: 10px;
-}
-
-#scroll-top:hover {
-  background-position: 0 0;
-  height: 48px;
-  width: 48px;
+  background: url(../images/social-icons.png) no-repeat -6px -6px;
+  width: 52px;
+  height: 52px;
 }
 /*end contact me*/
