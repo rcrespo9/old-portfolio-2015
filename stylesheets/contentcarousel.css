@@ -20,37 +20,6 @@
 	text-align:center;
 }
 
-.ca-more{
-	position: relative;
-	border: 0;
-	border-radius: 2px;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	-o-border-radius: 2px;
-	box-shadow: none;
-	padding:9px 15px;
-	margin: 5px;
-	background: #ed8d6c;
-	text-align:center;
-	color: white;
-	font-family: "Open Sans", sans-serif;
-	font-weight: 400;
-	font-size: .875em;
-	text-transform: uppercase;
-	opacity: 0;
-	-webkit-transition: all 0.15s ease-in-out;
-	-moz-transition: all 0.15s ease-in-out;
-	transition: all 0.15s ease-in-out;
-}
-
-.ca-item-main:hover .ca-icon .ca-more {
-	opacity: 1;
-}
-
-.ca-item-main .ca-icon .ca-more:hover {
-	color: #fff;
-	background: #FF9874;
-}
 .ca-close{
 	position:absolute;
 	top:10px;
@@ -76,10 +45,6 @@
 	bottom:5px;
 	background:#fffcec;
 	overflow:hidden;
-	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
-	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
-	box-shadow:1px 1px 2px rgba(0,0,0,0.2);
-	z-index: 2;
 }
 
 .ca-icon{
@@ -92,7 +57,6 @@
 	-webkit-transition: all 0.15s ease-in-out;
 	-moz-transition: all 0.15s ease-in-out;
 	transition: all 0.15s ease-in-out;
-	z-index: 0;
 	line-height: 18em;
 }
 
@@ -110,7 +74,7 @@
 	background-image:url(../images/afflatus-placeit.png);
 }
 
-.ca-icon a.screenshot-button {
+.ca-icon .screenshot-button {
 	box-shadow: none;
 	border: 0;
 	border-radius: 2px;
@@ -121,7 +85,7 @@
 	font-weight: 400;
 	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
-	background: #ed8d6c;
+	background: #F09979;
 	margin: 5px;
 	position: relative;
 	opacity: 0;
@@ -130,51 +94,16 @@
 	transition: all 0.15s ease-in-out;
 	font-size: 0.875em;
 	padding: 9px 15px;
-	z-index: 1;
+	display: inline;
 }
 
-.ca-item-main:hover .ca-icon a.screenshot-button {
+.ca-item-main:hover .ca-icon .screenshot-button {
 	opacity: 1;
 }
 
-.ca-item-main .ca-icon a.screenshot-button:hover {
-	background: #FF9874;
-}
-
-.ca-item h3{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	text-transform:uppercase;
-	font-size:30px;
-	color:#000;
-	margin-bottom:20px;
-	height:85px;
-	text-align:center;
-	text-shadow: 0px 1px 1px #e4ebe9;
-}
-.ca-item h4{
-	font-family: "Open Sans", sans-serif;
-	font-weight: 400;
-	font-style:italic;
-	font-size:12px;
-	text-align:left;
-	/*border-left:10px solid #b0ccc6;*/
-	padding-left:10px;
-	line-height:24px;
-	margin:10px;
-	position:relative;
-}
-.ca-item h4 span{
-	text-indent:40px;
-	display:block;
-}
-.ca-item h4  span.ca-quote{
-	color:#f4eee3;
-	font-size:100px;
-	position:absolute;
-	top:20px;
-	left:0px;
-	text-indent:0px;
+.ca-item-main .ca-icon .screenshot-button:hover {
+	color: #fff;
+	background: #FFA381;
 }
 
 .ca-content-wrapper{
@@ -212,27 +141,7 @@
 	border-bottom:2px solid #fff;
 	text-shadow: 1px 1px 1px #99BCB4;
 }
-.ca-content ul{
-	margin:20px 35px;
-	height:30px;
-}
-.ca-content ul li{
-	float:left;
-	margin:0px 2px;
-}
-.ca-content ul li a{
-	color:#fff;
-	background:#000;
-	padding:3px 6px;
-	font-size:14px;
-	font-family: "Open Sans", sans-serif;
-	font-style:italic;
-}
-.ca-content ul li a:hover{
-	background:#fff;
-	color:#000;
-	text-shadow:none;
-}
+
 .ca-nav span{
 	width:25px;
 	height:38px;

@@ -79,7 +79,7 @@ jQuery(document).ready(function ($) {
     });
     
     // activating links event
-    $('#slide2 .screenshot-button, #slide4 .social-link').on('click', function(){
+    $('#slide2 .closer-look, #slide4 .social-link').on('click', function(){
         var href = $(this).attr('href');
         window.open(href, '_blank');
     });
