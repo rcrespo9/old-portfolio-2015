@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
 /* Circular Content Carousel Style */
 .ca-container{
@@ -29,9 +29,6 @@
 	height:27px;
 	text-indent:-9000px;
 	outline:none;
-	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
-	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
-	box-shadow:1px 1px 2px rgba(0,0,0,0.2);
 	opacity:0.7;
 }
 .ca-close:hover{
@@ -110,10 +107,11 @@
 }
 
 .ca-content-wrapper{
-	background:#183355;
+	background: #30444e;
+	color: #fff;
 	position:absolute;
 	width:0px; /* expands to width of the wrapper minus 1 element */
-	height:470px;
+	height:271px;
 	top:5px;
 	text-align:left;
 	z-index:10000;
@@ -122,10 +120,9 @@
 .ca-content{
 	width:660px;
 	overflow:hidden;
-	color: #fff;
 }
 .ca-content-text{
-	font-size: 14px;
+	font-size: 1em;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
 	margin:10px 20px;
@@ -137,12 +134,11 @@
 }
 .ca-content h6{
 	margin:25px 20px 0px 35px;
-	font-size:32px;
+	font-size: 2em;
 	padding-bottom:5px;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+	font-weight: 600;
 	border-bottom:2px solid #fff;
-	text-shadow: 1px 1px 1px #99BCB4;
 }
 
 .ca-nav span{

@@ -164,56 +164,19 @@ a:hover{
 }
 
 .portfolio {
-  margin-top: 5%;
+  margin-top: 8%;
 }
 
 .portfolio-header {
-  color: #183355;
-  margin-bottom: 80px;
-}
-
-.work {
-  margin-top: 2%;
-}
-
-.to-about {
-  margin-top: 40px;
-}
-
-.about-button {
--webkit-transition: background-color .5s cubic-bezier(0.25,0.46,0.45,0.94);
--moz-transition: background-color .5s cubic-bezier(0.25,0.46,0.45,0.94);
--o-transition: background-color .5s cubic-bezier(0.25,0.46,0.45,0.94);
-transition: background-color .5s cubic-bezier(0.25,0.46,0.45,0.94);
--webkit-box-shadow: 0 5px 0 #1F4D5E;
--moz-box-shadow: 0 5px 0 #1F4D5E;
-box-shadow: 0 5px 0 #1F4D5E;
-border-radius: .25em;
-background: #2E708A;
-color: #f2f2f2;
-padding: .5em 1em;
-font-weight: 700;
-font-size: 1.1em;
-text-shadow: 0 1px 0 rgba(0,0,0,0.25);
-word-wrap: nowrap;
-text-transform: uppercase;
-letter-spacing: .05em;
--webkit-font-smoothing: antialiased;
-}
-
-.about-button:hover{
-  -webkit-box-shadow: 0 5px 0 rgba(31,77,94,0.7);
-  -moz-box-shadow: 0 5px 0 rgba(31,77,94,0.7);
-  box-shadow: 0 5px 0 rgba(31,77,94,0.7);
-  color: #f2f2f2;
-  background: rgba(46,112,138,0.75);
+  color: #30444e;
+  margin-bottom: 45px;
 }
 /*end portfolio*/
 
 
 /*about me*/
 #slide3{
-  background-color: #152732;
+  background-color: #30444e;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
