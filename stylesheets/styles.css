@@ -90,13 +90,14 @@ a:hover{
   transition: all .2s ease-in-out;
   padding: 10px;
 }
-.navigation li:hover,.active {
-  cursor:pointer;
-  color: #F09979;
-}
 
 .navigation li:visited {
   color:#fff;
+}
+
+.navigation li:hover,.active {
+  cursor:pointer;
+  color: #F09979;
 }
 
 @media (max-width: 480px) {

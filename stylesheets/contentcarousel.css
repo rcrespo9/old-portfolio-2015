@@ -53,7 +53,7 @@
 	position:relative;
 	margin:0 auto;
 	opacity: .7;
-	background:transparent url(../images/mirrorparadox-placeit.png) no-repeat center center;
+	background:transparent url(../images/themirrorparadox.png) no-repeat center center;
 	-webkit-transition: all 0.15s ease-in-out;
 	-moz-transition: all 0.15s ease-in-out;
 	transition: all 0.15s ease-in-out;
@@ -65,21 +65,21 @@
 }
 
 .ca-item-2 .ca-icon{
-	background-image:url(../images/crowdedlands-placeit.png);
+	background-image:url(../images/crowded-lands.png);
 }
 .ca-item-3 .ca-icon{
-	background-image:url(../images/tailoredtales-placeit.png);
+	background-image:url(../images/tailored-tales.png);
 }
 .ca-item-4 .ca-icon{
-	background-image:url(../images/afflatus-placeit.png);
+	background-image:url(../images/afflatus.png);
 }
 
 .ca-icon .screenshot-button {
 	box-shadow: none;
 	border: 0;
-	border-radius: 2px;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
 	-o-border-radius: 2px;
 	color: #fff;
 	font-weight: 400;
@@ -94,11 +94,14 @@
 	transition: all 0.15s ease-in-out;
 	font-size: 0.875em;
 	padding: 9px 15px;
-	display: inline;
 }
 
 .ca-item-main:hover .ca-icon .screenshot-button {
 	opacity: 1;
+}
+
+.ca-item-main .ca-icon .screenshot-button:visited {
+	color: #fff;
 }
 
 .ca-item-main .ca-icon .screenshot-button:hover {
