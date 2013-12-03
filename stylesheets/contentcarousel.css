@@ -19,25 +19,37 @@
 	height:100%;
 	text-align:center;
 }
+
 .ca-more{
-	position: absolute;
-	bottom: 0px;
-	right:0px;
-	padding:4px 15px;
+	position: relative;
+	border: 0;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	box-shadow: none;
+	padding:9px 15px;
+	margin: 5px;
 	background: #ed8d6c;
 	text-align:center;
 	color: white;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
-	font-size: .8em;
-	font-style: italic;
+	font-size: .875em;
 	text-transform: uppercase;
-	text-shadow:1px 1px 1px #897c63;
 	opacity: 0;
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
 }
 
-.ca-item-main:hover .ca-more {
+.ca-item-main:hover .ca-icon .ca-more {
 	opacity: 1;
+}
+
+.ca-item-main .ca-icon .ca-more:hover {
+	color: #fff;
+	background: #FF9874;
 }
 .ca-close{
 	position:absolute;
@@ -69,20 +81,23 @@
 	box-shadow:1px 1px 2px rgba(0,0,0,0.2);
 	z-index: 2;
 }
+
 .ca-icon{
 	width:375px;
 	height:281px;
 	position:relative;
 	margin:0 auto;
+	opacity: .7;
 	background:transparent url(../images/mirrorparadox-placeit.png) no-repeat center center;
 	-webkit-transition: all 0.15s ease-in-out;
 	-moz-transition: all 0.15s ease-in-out;
 	transition: all 0.15s ease-in-out;
 	z-index: 0;
+	line-height: 18em;
 }
 
 .ca-item-main:hover .ca-icon {
-	opacity: .7;
+	opacity: 1;
 }
 
 .ca-item-2 .ca-icon{
@@ -98,19 +113,23 @@
 .ca-icon a.screenshot-button {
 	box-shadow: none;
 	border: 0;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
 	color: #fff;
 	font-weight: 400;
 	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
 	background: #ed8d6c;
-	line-height: 18em;
+	margin: 5px;
 	position: relative;
 	opacity: 0;
 	-webkit-transition: all 0.15s ease-in-out;
 	-moz-transition: all 0.15s ease-in-out;
 	transition: all 0.15s ease-in-out;
 	font-size: 0.875em;
-	padding: 14px 32px 16px;
+	padding: 9px 15px;
 	z-index: 1;
 }
 
@@ -119,7 +138,7 @@
 }
 
 .ca-item-main .ca-icon a.screenshot-button:hover {
-	opacity: .9;
+	background: #FF9874;
 }
 
 .ca-item h3{
