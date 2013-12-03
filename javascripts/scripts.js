@@ -91,4 +91,7 @@ $('#resume').on('click', function(){
 });
 
 // circular content carousel
-$('#ca-container').contentcarousel();
+$('#ca-container').contentcarousel({
+    sliderSpeed: 800,
+    itemSpeed: 800
+});

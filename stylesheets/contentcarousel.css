@@ -1,56 +1,58 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
 /* Circular Content Carousel Style */
-.ca-container{
-	position:relative;
-	margin:25px auto 20px auto;
-	width:1120px;
-	height:281px;
+.ca-container {
+	position: relative;
+	margin: 25px auto 20px auto;
+	width: 1120px;
+	height: 281px;
 }
-.ca-wrapper{
-	width:100%;
-	height:100%;
-	position:relative;
+
+.ca-wrapper {
+	width: 100%;
+	height: 100%;
+	position: relative;
 }
-.ca-item{
-	position:relative;
-	float:left;
-	width:375px;
-	height:100%;
-	text-align:center;
+
+.ca-item {
+	position: relative;
+	float: left;
+	width: 375px;
+	height: 100%;
+	text-align: center;
 }
 
 .ca-close{
-	position:absolute;
-	top:10px;
-	right:10px;
-	background:#fff url(../images/cross.png) no-repeat center center;
-	width:27px;
-	height:27px;
-	text-indent:-9000px;
-	outline:none;
-	opacity:0.7;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: #fff url(../images/cross.png) no-repeat center center;
+	width: 27px;
+	height: 27px;
+	text-indent: -9000px;
+	outline: none;
+	opacity: 0.7;
 }
-.ca-close:hover{
-	opacity:1.0;
+.ca-close:hover {
+	opacity: 1;
 }
-.ca-item-main{
-	position:absolute;
-	top:5px;
-	left:5px;
-	right:5px;
-	bottom:5px;
-	background:#fffcec;
-	overflow:hidden;
+.ca-item-main {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	background: #fffcec;
+	overflow: hidden;
 }
 
-.ca-icon{
-	width:375px;
-	height:281px;
-	position:relative;
-	margin:0 auto;
+.ca-icon {
+	width: 375px;
+	height: 281px;
+	position: relative;
+	margin: 0 auto;
 	opacity: .7;
-	background:transparent url(../images/themirrorparadox.png) no-repeat center center;
+	background: transparent url(../images/themirrorparadox.png) no-repeat center center;
 	-webkit-transition: all 0.15s ease-in-out;
 	-moz-transition: all 0.15s ease-in-out;
 	transition: all 0.15s ease-in-out;
@@ -61,13 +63,13 @@
 	opacity: 1;
 }
 
-.ca-item-2 .ca-icon{
+.ca-item-2 .ca-icon {
 	background-image:url(../images/crowded-lands.png);
 }
-.ca-item-3 .ca-icon{
+.ca-item-3 .ca-icon {
 	background-image:url(../images/tailored-tales.png);
 }
-.ca-item-4 .ca-icon{
+.ca-item-4 .ca-icon {
 	background-image:url(../images/afflatus.png);
 }
 
@@ -106,59 +108,59 @@
 	background: #FFA381;
 }
 
-.ca-content-wrapper{
+.ca-content-wrapper {
 	background: #30444e;
 	color: #fff;
-	position:absolute;
-	width:0px; /* expands to width of the wrapper minus 1 element */
-	height:271px;
-	top:5px;
-	text-align:left;
-	z-index:10000;
-	overflow:hidden;
+	position: absolute;
+	width: 0px; /* expands to width of the wrapper minus 1 element */
+	height: 271px;
+	top: 5px;
+	text-align: left;
+	z-index: 10000;
+	overflow: hidden;
 }
-.ca-content{
-	width:660px;
-	overflow:hidden;
+.ca-content {
+	width: 660px;
+	overflow: hidden;
 }
-.ca-content-text{
+.ca-content-text {
 	font-size: 1em;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
-	margin:10px 20px;
-	padding:10px 20px;
-	line-height:24px;
+	margin: 10px 20px;
+	padding: 10px 20px;
+	line-height: 24px;
 }
-.ca-content-text p{
-	padding-bottom:5px;
+.ca-content-text p {
+	padding-bottom: 5px;
 }
-.ca-content h6{
-	margin:25px 20px 0px 35px;
+.ca-content h6 {
+	margin: 25px 20px 0px 35px;
 	font-size: 2em;
-	padding-bottom:5px;
+	padding-bottom: 5px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-	border-bottom:2px solid #fff;
+	border-bottom: 2px solid #fff;
 }
 
-.ca-nav span{
-	width:25px;
-	height:38px;
-	background:transparent url(../images/arrows.png) no-repeat top left;
-	position:absolute;
-	top:50%;
-	margin-top:-19px;
-	left:-40px;
-	text-indent:-9000px;
-	opacity:0.7;
-	cursor:pointer;
-	z-index:100;
+.ca-nav span {
+	width: 25px;
+	height: 38px;
+	background: transparent url(../images/arrows.png) no-repeat top left;
+	position: absolute;
+	top: 50%;
+	margin-top: -19px;
+	left: -40px;
+	text-indent: -9000px;
+	opacity: 0.7;
+	cursor: pointer;
+	z-index: 100;
 }
-.ca-nav span.ca-nav-next{
-	background-position:top right;
-	left:auto;
-	right:-40px;
+.ca-nav span.ca-nav-next {
+	background-position: top right;
+	left: auto;
+	right: -40px;
 }
-.ca-nav span:hover{
-	opacity:1.0;
+.ca-nav span:hover {
+	opacity: 1.0;
 }
