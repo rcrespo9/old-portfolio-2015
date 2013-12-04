@@ -26,16 +26,14 @@
 	position: absolute;
 	top: 10px;
 	right: 10px;
-	background: #fff url(../images/cross.png) no-repeat center center;
+	background: url(../images/x-mark.png) no-repeat center center;
+	border-radius: 3px;
 	width: 27px;
 	height: 27px;
 	text-indent: -9000px;
 	outline: none;
-	opacity: 0.7;
 }
-.ca-close:hover {
-	opacity: 1;
-}
+
 .ca-item-main {
 	position: absolute;
 	top: 5px;
