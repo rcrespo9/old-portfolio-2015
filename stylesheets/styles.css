@@ -75,7 +75,7 @@ a:hover{
 .navigation {
   position:absolute;
   z-index:1;
-  top:20px;
+  top:10px;
 }
 .navigation li {
   color:#fff;
@@ -97,7 +97,7 @@ a:hover{
 
 .navigation li:hover,.active {
   cursor:pointer;
-  color: #F09979;
+  color: #6A798E;
 }
 
 /*@media (max-width: 480px) {
@@ -164,19 +164,51 @@ a:hover{
 }
 
 .portfolio {
-  margin-top: 8%;
+  margin-top: 6%;
 }
 
 .portfolio-header {
   color: #30444e;
   margin-bottom: 45px;
 }
+
+.to-about {
+  margin-top: 3%;
+}
+
+.about-button {
+  display: block;
+  font-size: 1em;
+  width: 200px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  background-color: #30444e;
+  text-align: center;
+  text-decoration: none;
+  padding: 18px 40px 16px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 auto;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.about-button:visited {
+  color: #fff;
+}
+
+.about-button:hover {
+  background: #38505C;
+  color: #fff;
+}
 /*end portfolio*/
 
 
 /*about me*/
 #slide3{
-  background-color: #30444e;
+  background-color: #131C28;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
