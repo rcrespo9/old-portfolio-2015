@@ -38,7 +38,7 @@ a:hover{
 .slide-down {
   width: 75px;
   margin: 0 auto 0 auto;
-  margin-top: 4%;
+  margin-top: 5%;
 }
 
 .button{
@@ -62,12 +62,13 @@ a:hover{
 
 /*menu*/
 .navigation {
-  position: relative;
+  position: fixed;
   z-index: 1;
   top: 10px;
 }
+
 .navigation li {
-  color: #fff;
+  color: #3B4658;
   display: inline;
   font-weight: 400;
   font-size: .8em;
@@ -81,7 +82,7 @@ a:hover{
 }
 
 .navigation li:visited {
-  color: #fff;
+  color: #3B4658;
 }
 
 .navigation li:hover,.active {
@@ -109,7 +110,6 @@ a:hover{
   font-family: 'Alegreya', serif;
   font-size: 6.5em;
   font-weight: 900;
-  position: relative;
 }
 
 .lead {
@@ -117,7 +117,7 @@ a:hover{
 }
 
 .v-center {
-  margin-top:14%;
+  margin-top: 18%;
 }
 /*end introduction*/
 
@@ -140,11 +140,11 @@ a:hover{
   margin-bottom: 45px;
 }
 
-.to-about {
+.resume-button {
   margin-top: 3%;
 }
 
-.about-button {
+#resume {
   display: block;
   font-size: 1em;
   width: 200px;
@@ -163,11 +163,11 @@ a:hover{
   transition: all 0.15s ease-in-out;
 }
 
-.about-button:visited {
+#resume:visited {
   color: #fff;
 }
 
-.about-button:hover {
+#resume:hover {
   background: #38505C;
   color: #fff;
 }

@@ -95,3 +95,19 @@ $('#ca-container').contentcarousel({
     sliderSpeed: 800,
     itemSpeed: 800
 });
+
+
+// fadeIn navbar
+$(window).bind('scroll', function (e) {
+    checkNavVisibilty();
+});
+
+function checkNavVisibilty() {
+    if ($(this).scrollTop() > 550) {
+        $(".navigation").fadeIn();
+    } else {
+        $(".navigation").fadeOut();
+    }
+};
+
+$(".navigation").hide();
