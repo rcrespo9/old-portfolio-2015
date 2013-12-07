@@ -98,16 +98,12 @@ $('#ca-container').contentcarousel({
 
 
 // fadeIn navbar
-$(window).bind('scroll', function (e) {
-    checkNavVisibilty();
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 500) {
+        $('.nav').fadeIn();
+    } else {
+        $('.nav').fadeOut();
+    }
 });
 
-function checkNavVisibilty() {
-    if ($(this).scrollTop() > 550) {
-        $(".navigation").fadeIn();
-    } else {
-        $(".navigation").fadeOut();
-    }
-};
-
-$(".navigation").hide();
+$('.navigation').hide();
