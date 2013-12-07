@@ -26,7 +26,6 @@ jQuery(document).ready(function ($) {
     }
 
 
-
     //When the user clicks on the navigation links, get the data-slide attribute value of the link and pass that variable to the goToByScroll function
     links.click(function (e) {
         e.preventDefault();
@@ -49,14 +48,14 @@ jQuery(document).ready(function ($) {
 
     });
     
-    // activating links event
+    // activating screenshot buttons
     $('#slide2 .closer-look, #slide4 .social-link').on('click', function(){
         var href = $(this).attr('href');
         window.open(href, '_blank');
     });
 });
 
-// activating resume link
+// activating resume button
 $('#resume').on('click', function(){
     window.open('resume.html', '_blank');
 });

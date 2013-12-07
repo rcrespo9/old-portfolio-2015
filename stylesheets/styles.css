@@ -62,23 +62,35 @@ a:hover{
 
 /*menu*/
 .navigation a {
-  color: #3B4658;
   font-weight: 400;
-  font-size: 1em;
+  font-size: .8em;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
+  text-transform: uppercase;
 }
 
-.navigation a:visited {
-  color: #3B4658;
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-.navigation a:hover, .active {
-  cursor: pointer;
-  color: #6A798E;
+.navbar-default .navbar-nav>li>a {
+  color: #30444e;
 }
+
+.navbar-default .navbar-nav>li>a:visited {
+  color: #30444e;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .active {
+  text-decoration: underline;
+}
+
 /*end menu*/
 
 /* introduction */
@@ -176,25 +188,17 @@ a:hover{
 .about-me {
   color: #fff;
   line-height: 32.5px;
+  margin-top: 8%;
 }
 
 .about-header {
-  margin-top: 3%;
-}
-
-.bio {
-  margin-top: 2%;
-}
-
-.bio-intro {
-  font-size: 1.5em;
+  margin-bottom: 3%;
 }
 
 .bio-text {
   font-size: 1.25em;
   margin-bottom: 2em;
 }
-
 /*end about me*/
 
 
