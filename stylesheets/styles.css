@@ -1,6 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Source+Sans+Pro:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Source+Sans+Pro:400,800,900);
 
 html,body {
+  font-family: 'Source Sans Pro', sans-serif;
   height: 100%;
   width: 100%;
 }
@@ -14,7 +15,6 @@ h2 {
 }
 
 p {
-  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
 
@@ -115,7 +115,7 @@ a:hover{
 }
 
 .lead {
-  font-size: 1.64em;
+  font-size: 1.74em;
 }
 
 .v-center {
