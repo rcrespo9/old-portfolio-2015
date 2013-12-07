@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Open+Sans:400,700,800);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Source+Sans+Pro:400,700,900);
 
 html,body {
   height: 100%;
@@ -6,15 +6,15 @@ html,body {
 }
 
 h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: .1em;
   font-size: 3em;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
 
@@ -115,7 +115,7 @@ a:hover{
 }
 
 .lead {
-  font-size: 1.4em;
+  font-size: 1.64em;
 }
 
 .v-center {
@@ -134,7 +134,7 @@ a:hover{
 }
 
 .portfolio {
-  margin-top: 6%;
+  margin-top: 9%;
 }
 
 .portfolio-header {
