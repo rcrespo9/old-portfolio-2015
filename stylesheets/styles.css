@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Source+Sans+Pro:400,800,900);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700|Source+Sans+Pro:400,600,800,900);
 
 html,body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -62,8 +62,9 @@ a:hover{
 
 /*menu*/
 .navigation a {
-  font-weight: 400;
-  font-size: .8em;
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: 1px;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
@@ -73,10 +74,17 @@ a:hover{
 
 .navbar-default {
   background-color: #fff;
-  border-color: #fff;
+  border-color: transparent;
   -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav {
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
+  float:none;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -90,7 +98,6 @@ a:hover{
 .navbar-default .navbar-nav>li>a:hover, .active {
   text-decoration: underline;
 }
-
 /*end menu*/
 
 /* introduction */
