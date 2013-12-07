@@ -61,31 +61,21 @@ a:hover{
 /*end parallax*/
 
 /*menu*/
-.navigation {
-  position: fixed;
-  z-index: 1;
-  top: 10px;
-}
-
-.navigation li {
+.navigation a {
   color: #3B4658;
-  display: inline;
   font-weight: 400;
-  font-size: .8em;
-  line-height: 45px;
+  font-size: 1em;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  padding: 10px;
-  text-transform: uppercase;
 }
 
-.navigation li:visited {
+.navigation a:visited {
   color: #3B4658;
 }
 
-.navigation li:hover,.active {
+.navigation a:hover, .active {
   cursor: pointer;
   color: #6A798E;
 }
