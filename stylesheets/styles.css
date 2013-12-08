@@ -221,48 +221,32 @@ a:hover{
   right:0;
 }
 
+#footer i {
+  color: #30444e;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
 .contact-info {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .social-icon {
-  padding: 43px;
+  padding: 20px;
 }
 
-#pinterest {
-  background: url(../images/social-icons.png) no-repeat -6px -576px;
-  width: 52px;
-  height: 52px;
+#footer i.fa-linkedin-square:hover{
+  color: #0e76a8;
 }
 
-#pinterest:hover{
-  background: url(../images/social-icons.png) no-repeat -6px -462px;
-  width: 52px;
-  height: 52px;
+#footer i.fa-github-square:hover{
+  color: #171515;
 }
 
-#linkedin {
-  background: url(../images/social-icons.png) no-repeat -6px -348px;
-  width: 52px;
-  height: 52px; 
-}
-
-#linkedin:hover{
-  background: url(../images/social-icons.png) no-repeat -6px -234px;
-  width: 52px;
-  height: 52px;
-}
-
-#github {
-  background: url(../images/social-icons.png) no-repeat -6px -120px;
-  width: 52px;
-  height: 52px;
-}
-
-#github:hover{
-  background: url(../images/social-icons.png) no-repeat -6px -6px;
-  width: 52px;
-  height: 52px;
+#footer i.fa-pinterest-square:hover{
+  color: #c8232c;
 }
 /*end contact me*/
 
