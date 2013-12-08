@@ -45,9 +45,6 @@ a:hover{
   display: block;
   width: 55px;
   height: 55px;
-  border: solid white;
-  border-radius: 100px;
-  background: url(../images/arrow.png) no-repeat;
   opacity: .5;
     -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
@@ -121,6 +118,7 @@ a:hover{
 
 .lead {
   font-size: 1.74em;
+  text-shadow: 0 0 8px rgba(0,0,0,.5);
 }
 
 .v-center {
