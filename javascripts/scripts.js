@@ -48,16 +48,11 @@ jQuery(document).ready(function ($) {
 
     });
     
-    // activating screenshot buttons
-    $('#slide2 .closer-look, #slide4 .social-link').on('click', function(){
+    // activating all links
+    $('#slide2 .closer-look,  #slide2 #github-button, #slide4 .social-link').on('click', function(){
         var href = $(this).attr('href');
         window.open(href, '_blank');
     });
-});
-
-// activating resume button
-$('#resume').on('click', function(){
-    window.open('resume.html', '_blank');
 });
 
 // circular content carousel

@@ -74,10 +74,10 @@
 .ca-icon .screenshot-button {
 	box-shadow: none;
 	border: 0;
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-o-border-radius: 3px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
 	color: #fff;
 	font-weight: 400;
 	font-family: "Source Sans Pro", sans-serif;
@@ -86,9 +86,10 @@
 	margin: 5px;
 	position: relative;
 	opacity: 0;
-	-webkit-transition: all 0.15s ease-in-out;
-	-moz-transition: all 0.15s ease-in-out;
-	transition: all 0.15s ease-in-out;
+   -webkit-transition: all .2s ease-in-out;
+   -moz-transition: all .2s ease-in-out;
+   -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 	font-size: 0.875em;
 	padding: 9px 15px;
 }
