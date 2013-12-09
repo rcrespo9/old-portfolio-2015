@@ -25,7 +25,6 @@ jQuery(document).ready(function ($) {
         }, 1100, 'easeInOutQuint');
     }
 
-
     //When the user clicks on the navigation links, get the data-slide attribute value of the link and pass that variable to the goToByScroll function
     links.click(function (e) {
         e.preventDefault();
@@ -51,7 +50,11 @@ jQuery(document).ready(function ($) {
     // activating all links
     $('#slide2 .closer-look,  #slide2 #github-button, #slide3 .contact-me, #slide4 .social-link').on('click', function(){
         var href = $(this).attr('href');
-        window.open(href, '_blank');
+        if (href != "mailto:rudy.crespo20@gmail.com") {
+            window.open(href, '_blank');
+        } else {
+            window.open(href, '_self');
+        }
     });
 });
 
@@ -60,7 +63,6 @@ $('#ca-container').contentcarousel({
     sliderSpeed: 800,
     itemSpeed: 800
 });
-
 
 // fadein navbar
 $(window).scroll(function() {
