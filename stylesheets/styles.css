@@ -27,6 +27,26 @@ a:hover{
   cursor: pointer;
 }
 
+.styled-button {
+  display: block;
+  margin: 0 auto;
+  padding: 1em 0;
+  font-size: 1em;
+  width: 200px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: background-color 0.5s ease-in-out, 1s;
+  -moz-transition: background-color 0.5s ease-in-out, 1s;
+  -o-transition: background-color 0.5s ease-in-out, 1s;
+  transition: background-color 0.5s ease-in-out, 1s;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 /*parallax*/
 .slide{
   width: 100%;
@@ -62,16 +82,12 @@ a:hover{
   font-weight: 600;
   font-size: 1em;
   letter-spacing: 1px;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  -o-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
   text-transform: uppercase;
 }
 
 .navbar-default {
   background-color: #fff;
-  border-bottom: 1px solid #d3d7d8;
+  /*border-bottom: 1px solid #d3d7d8;*/
 }
 
 .navbar-nav {
@@ -79,10 +95,15 @@ a:hover{
   display: table;
   table-layout: fixed;
   float:none;
+  height: 53px;
 }
 
 .navbar-default .navbar-nav>li>a {
   color: #30444e;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .navbar-default .navbar-nav>li>a:visited {
@@ -90,7 +111,7 @@ a:hover{
 }
 
 .navbar-default .navbar-nav>li>a:hover, .active {
-  text-decoration: underline;
+  border-bottom: 3px solid #30444e;
 }
 /*end menu*/
 
@@ -150,33 +171,16 @@ a:hover{
 }
 
 #github-button {
-  padding: 1em 0;
-  font-size: 1em;
   color: #30444e; 
-  width: 200px;
   background-color: #fff;
   border: 2px solid #30444e;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-transition: background-color 0.5s ease-in-out, 1s;
-  -moz-transition: background-color 0.5s ease-in-out, 1s;
-  -o-transition: background-color 0.5s ease-in-out, 1s;
-  transition: background-color 0.5s ease-in-out, 1s;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
-#github-button:visited {
+a#github-button:visited {
   color: #30444e;
 }
 
-#github-button:hover {
+a#github-button:hover {
   background: #30444e;
   color: #fff;
 }
@@ -185,7 +189,7 @@ a:hover{
 
 /*about me*/
 #slide3{
-  background-color: #131C28;
+  background-color: #223241;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -205,6 +209,38 @@ a:hover{
 .bio-text {
   font-size: 1.25em;
   margin-bottom: 2em;
+}
+
+.contact-buttons {
+  display:table; 
+  margin:0 auto;
+}
+
+.contact-buttons ul {
+  width: 480px;
+}
+
+.contact-buttons li {
+  display:table-cell;
+}
+
+#email-link {
+  margin-right: 15px;
+  margin-left: -8px
+}
+
+.contact-me {
+  color: #fff; 
+  border: 2px solid #fff;
+}
+
+.contact-me:visited {
+  color: #fff;
+}
+
+.contact-me:hover {
+  background: #fff;
+  color: #30444e;
 }
 /*end about me*/
 

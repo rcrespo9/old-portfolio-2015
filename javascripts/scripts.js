@@ -49,7 +49,7 @@ jQuery(document).ready(function ($) {
     });
     
     // activating all links
-    $('#slide2 .closer-look,  #slide2 #github-button, #slide4 .social-link').on('click', function(){
+    $('#slide2 .closer-look,  #slide2 #github-button, #slide3 .contact-me, #slide4 .social-link').on('click', function(){
         var href = $(this).attr('href');
         window.open(href, '_blank');
     });

@@ -82,7 +82,7 @@
 	font-weight: 400;
 	font-family: "Source Sans Pro", sans-serif;
 	text-transform: uppercase;
-	background: #F09979;
+	background: #ed8d6c;
 	margin: 5px;
 	position: relative;
 	opacity: 0;
@@ -104,7 +104,7 @@
 
 .ca-item-main .ca-icon .screenshot-button:hover {
 	color: #fff;
-	background: #FFA381;
+	background: #FF9874;
 }
 
 .ca-content-wrapper {
