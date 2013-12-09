@@ -83,6 +83,10 @@ a:hover{
   font-size: 1em;
   letter-spacing: 1px;
   text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .navbar-default {
@@ -100,10 +104,10 @@ a:hover{
 
 .navbar-default .navbar-nav>li>a {
   color: #30444e;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar-default .navbar-nav>li>a:visited {
@@ -226,7 +230,7 @@ a#github-button:hover {
 
 #email-link {
   margin-right: 15px;
-  margin-left: -7px
+  margin-left: -9px;
 }
 
 .contact-me {
