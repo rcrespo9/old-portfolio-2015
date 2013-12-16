@@ -50,7 +50,7 @@
 	position: relative;
 	margin: 0 auto;
 	opacity: .7;
-	background: transparent url(../images/themirrorparadox.png) no-repeat center center;
+	background: transparent url(../images/live-discourse.png) no-repeat center center;
 	-webkit-transition: all 0.15s ease-in-out;
 	-moz-transition: all 0.15s ease-in-out;
 	transition: all 0.15s ease-in-out;
@@ -62,12 +62,16 @@
 }
 
 .ca-item-2 .ca-icon {
-	background-image:url(../images/crowded-lands.png);
+	background-image:url(../images/themirrorparadox.png);
 }
 .ca-item-3 .ca-icon {
-	background-image:url(../images/tailored-tales.png);
+	background-image:url(../images/crowded-lands.png);
 }
 .ca-item-4 .ca-icon {
+	background-image:url(../images/tailored-tales.png);
+}
+
+.ca-item-5 .ca-icon {
 	background-image:url(../images/afflatus.png);
 }
 
