@@ -74,3 +74,4 @@ $(window).scroll(function() {
 });
 
 $('.navbar').hide();
+
