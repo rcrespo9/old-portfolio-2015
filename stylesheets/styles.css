@@ -1,19 +1,14 @@
 html,body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro Regular', sans-serif;
   height: 100%;
   width: 100%;
 }
 
 h2 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 700;
+  font-family: 'Source Sans Pro Bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: .05em;
   font-size: 2.7em;
-}
-
-p {
-  font-weight: 400;
 }
 
 a {
@@ -78,7 +73,7 @@ a:hover{
 /*menu*/
 .navigation a {
   font-weight: 600;
-  font-size: 1em;
+  font-size: .890em;
   letter-spacing: 1px;
   text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in-out;
@@ -135,7 +130,6 @@ a:hover{
 .introduction {
   font-family: 'Alegreya', serif;
   font-size: 6.5em;
-  font-weight: 900;
 
 }
 
