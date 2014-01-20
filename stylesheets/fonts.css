@@ -15,7 +15,7 @@
         font-family: 'Alegreya';
         src: url('../fonts/alegreya-bold-webfont.svg') format('svg');
     }
-
+}
 @font-face {
     font-family: 'Source Sans Pro Regular';
     src: url('../fonts/sourcesanspro-regular-webfont.eot');
@@ -50,3 +50,4 @@
         font-family: 'Source Sans Pro Bold';
         src: url('../fonts/sourcesanspro-bold-webfont.svg') format('svg');
     }
+}
