@@ -81,8 +81,7 @@
 	-webkit-border-radius: 4px;
 	-o-border-radius: 4px;
 	color: #fff;
-	font-weight: 400;
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: "Source Sans Pro Regular", sans-serif;
 	text-transform: uppercase;
 	background: #ed8d6c;
 	margin: 5px;
@@ -126,8 +125,7 @@
 }
 .ca-content-text {
 	font-size: 1.15em;
-	font-family: "Source Sans Pro", sans-serif;
-	font-weight: 400;
+	font-family: "Source Sans Pro Regular", sans-serif;
 	margin: 10px 20px;
 	padding: 10px 20px;
 	line-height: 24px;
@@ -139,8 +137,7 @@
 	margin: 25px 20px 0px 35px;
 	font-size: 1.6em;
 	padding-bottom: 5px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 700;
+	font-family: 'Source Sans Pro Bold', sans-serif;
 	border-bottom: 2px solid #fff;
 	text-transform: uppercase;
 }
