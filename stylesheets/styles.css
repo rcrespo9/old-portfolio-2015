@@ -273,5 +273,13 @@ footer i.fa-github-square:hover{
 footer i.fa-pinterest-square:hover{
   color: #c8232c;
 }
+
+footer i.fa-envelope:hover{
+  color: #7F8C4D;
+}
+
+footer i.fa-file-text:hover{
+  color: #B9A68B;
+}
 /*end contact me*/
 
