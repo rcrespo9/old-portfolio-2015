@@ -242,16 +242,11 @@ a#github-button:hover {
 
 
 /*contact me*/
-#footer{
+footer{
   background-color: #fff;
-  position:relative;
-  height:100px;
-  bottom:0;
-  left:0;
-  right:0;
 }
 
-#footer i {
+footer i {
   color: #30444e;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -260,22 +255,22 @@ a#github-button:hover {
 }
 
 .contact-info {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .social-icon {
   padding: 20px;
 }
 
-#footer i.fa-linkedin-square:hover{
+footer i.fa-linkedin-square:hover{
   color: #0e76a8;
 }
 
-#footer i.fa-github-square:hover{
+footer i.fa-github-square:hover{
   color: #171515;
 }
 
-#footer i.fa-pinterest-square:hover{
+footer i.fa-pinterest-square:hover{
   color: #c8232c;
 }
 /*end contact me*/
