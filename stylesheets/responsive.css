@@ -1,5 +1,5 @@
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 320px) and (max-width : 640px) {
 /* Styles */
 	.contact-info {
 	  margin-top: 40px;
@@ -35,22 +35,5 @@
  
 /* iPads (portrait) ----------- */
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
-/* Styles */
-}
-
-/*Samsung Galaxy(landscape)*/
-@media only screen and (min-device-width : 480px) and (max-device-width : 800px) and (orientation : landscape) {
-/* Styles */
-	.contact-info {
-	  margin-top: 40px;
-	}
-
-	.social-icon {
-	  padding: 7px;
-	}
-}
-
-/*Samsung Galaxy(portrait)*/
-@media only screen and (min-device-width : 480px) and (max-device-width : 800px) and (orientation : portrait) {
 /* Styles */
 }
