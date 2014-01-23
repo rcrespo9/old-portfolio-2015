@@ -2,7 +2,11 @@
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 /* Styles */
 	.contact-info {
-	  margin-top: 35px;
+	  margin-top: 40px;
+	}
+
+	.social-icon {
+	  padding: 7px;
 	}
 }
  
@@ -14,9 +18,6 @@
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
 /* Styles */
-	.social-icon {
-	  padding: 7px;
-	}
 }
  
 /* iPads (portrait and landscape) ----------- */
