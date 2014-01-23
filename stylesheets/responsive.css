@@ -13,11 +13,29 @@
 /* Smartphones (landscape) ----------- */
 @media only screen and (max-width : 640px) {
 /* Styles */
+	.introduction {
+		font-size: 3.2em;
+	}
+
+	.lead {
+		font-size: .89em;
+	}
 }
  
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
 /* Styles */
+	.introduction {
+		font-size: 2.1em;
+	}
+
+	.lead {
+		font-size: .6em;
+	}
+
+	.v-center {
+		margin-top: 40%;
+	}
 }
  
 /* iPads (portrait and landscape) ----------- */
@@ -31,9 +49,23 @@
 /* iPads (landscape) ----------- */
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
 /* Styles */
+	.v-center {
+		margin-top: 22%;
+	}
 }
  
 /* iPads (portrait) ----------- */
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
 /* Styles */
+	.introduction {
+		font-size: 5em;
+	}
+
+	.lead {
+		font-size: 1.35em;
+	}
+
+	.v-center {
+		margin-top: 30%;
+	}
 }
