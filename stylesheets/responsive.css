@@ -23,7 +23,7 @@
 }
  
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 360px) {
+@media only screen and (max-width : 320px) {
 /* Styles */
 	.introduction {
 		font-size: 2.2em;
@@ -34,7 +34,23 @@
 	}
 
 	.v-center {
-		margin-top: 40%;
+		margin-top: 38%;
+	}
+}
+
+/* Bigger Smartphones (portrait) ----------- */
+@media only screen and (max-width : 360px) {
+/* Styles */
+	.introduction {
+		font-size: 2.3em;
+	}
+
+	.lead {
+		font-size: 1em;
+	}
+
+	.v-center {
+		margin-top: 42%;
 	}
 }
  
