@@ -1,0 +1,15 @@
+/*------------------------------------*\
+    #Global
+\*------------------------------------*/
+
+html, body {
+	font-size: 100%;
+	position: relative;
+}
+
+// better font rendering
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;   
+}
