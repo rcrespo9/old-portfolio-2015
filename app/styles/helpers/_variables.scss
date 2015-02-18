@@ -2,14 +2,19 @@
     #Variables
 \*------------------------------------*/
 
+// colors
+$white: #fff;
+$dark-gray: #121212;
 
 
 /*------------------------------------*\
     #Bootstrap Variables
 \*------------------------------------*/
+// body
+$body-bg: $dark-gray;
 
 // text
-// $text-color: $dark-gray;
+$text-color: $white;
 
 // fonts
 // $font-family-sans-serif: 'brandon-grotesque', Helvetica, Arial, sans-serif;

@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
 	@include type-scale(xxxlarge);
+	margin-bottom: rem(15);
 }
 
 
@@ -22,6 +23,7 @@ h3 {
 
 h4 {
 	@include type-scale(medium);
+	margin-bottom: rem(20);
 }
 
 p, dl {
@@ -36,10 +38,4 @@ small {
 strong {
 	@include type-weight(medium);
 }
-
-/*------------------------------------*\
-    #Typography Classes
-\*------------------------------------*/
-
-// introduction
 

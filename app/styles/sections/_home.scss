@@ -13,3 +13,11 @@
 .introduction {
 	text-align: center;
 }
+
+.intro-lead {
+	max-width: rem(600);
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	@extend h4;
+}

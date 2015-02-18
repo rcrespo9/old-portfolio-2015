@@ -2,6 +2,10 @@
     #Social Icons
 \*------------------------------------*/
 
+.social-icons-section {
+	text-align: center
+}
+
 .social-icons-wrap {
 	margin-bottom: 0;
 }
@@ -9,13 +13,13 @@
 .social-icon {
 	color: inherit;
 	display: inline-block;
-	border: 3px solid rgba($text-color, 0.7);
+	border: 3px solid rgba($text-color, 0.5);
 	width: 54px;
 	height: 54px;
 	border-radius: 50%;
 	font-size: rem(25);
 	text-align: center;
-	@include transition(.2s ease-in-out);
+	@include transition(all .3s ease-in-out);
 
 	&:hover, &:focus {
 		color: inherit;
