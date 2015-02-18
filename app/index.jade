@@ -13,8 +13,8 @@ html.no-js
     |     
     link(rel='shortcut icon', href='/favicon.ico')
 
-    script(src="//use.typekit.net/uor8vox.js")
-
+    script(src="//use.typekit.net/evn1cjm.js")
+        
     script.
       try{Typekit.load();}catch(e){}
 
@@ -38,6 +38,10 @@ html.no-js
         |  browser. Please 
         a(href='http://browsehappy.com/') upgrade your browser
         |  to improve your experience.
+
+    main#wrapper    
+        include ./partials/home.jade
+        include ./partials/social_icons.jade    
     // build:js(.) scripts/vendor.js
     // bower:js
     script(src='bower_components/jquery/dist/jquery.js')

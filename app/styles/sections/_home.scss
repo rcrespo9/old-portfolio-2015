@@ -1,3 +1,15 @@
 /*------------------------------------*\
     #Home Page
 \*------------------------------------*/
+
+// main wrapper styles
+#wrapper {
+	@include display(flex);
+	@include flex-direction(column);
+	@include justify-content(center);	
+}
+
+// introduction
+.introduction {
+	text-align: center;
+}

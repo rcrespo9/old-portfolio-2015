@@ -1,16 +1,25 @@
 // variables
 @import 'helpers/variables';
+@import 'helpers/functions';
 @import 'helpers/mixins';
 
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
-@import "compass-mixins/lib/_compass.scss";
+@import "bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "fontawesome/scss/font-awesome.scss";
 // endbower
 
 // base
 @import 'base/global';
-@import 'base/typography';
 
-// section
+// typography
+@import 'typography/mixins';
+@import 'typography/config';
+@import 'typography/base';
+
+// components
+@import 'components/social_icons';
+
+// sections
 @import 'sections/home';
 
