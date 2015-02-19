@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
 	@include type-scale(xxxlarge);
-	margin-bottom: rem(15);
+	@include type-weight(regular);
 }
 
 
@@ -21,9 +21,8 @@ h3 {
 	@include type-scale(large);
 }
 
-h4 {
+h4, strong {
 	@include type-scale(medium);
-	margin-bottom: rem(20);
 }
 
 p, dl {
@@ -33,9 +32,5 @@ p, dl {
 
 small {
 	@include type-scale(small);
-}
-
-strong {
-	@include type-weight(medium);
 }
 
