@@ -13,6 +13,17 @@
 	margin-bottom: 0;
 }
 
+.social-icon-item {
+	@include fadeInDown();
+
+	@for $item from 1 through 4{
+
+	  &:nth-child(#{$item}){ 
+	    @include animation-delay(#{$item / 10}s); 
+	  }
+	}	
+}
+
 .social-icon {
 	color: inherit;
 	display: inline-block;
@@ -39,4 +50,5 @@
 	i {
 		vertical-align: -9px;
 	}
+
 }
