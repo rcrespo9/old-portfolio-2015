@@ -5,7 +5,7 @@
 .social-icons-section {
 	text-align: center;
 	position: fixed;
-	top: rem(15);
+	bottom: rem(15);
 	right: rem(15);
 }
 
@@ -14,7 +14,7 @@
 }
 
 .social-icon-item {
-	@include fadeInDown();
+	@include rotateIn();
 
 	@for $item from 1 through 4{
 

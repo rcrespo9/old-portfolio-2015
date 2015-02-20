@@ -9,6 +9,10 @@
 	@include justify-content(center);	
 }
 
+section {
+	z-index: 100;
+}
+
 // introduction
 .introduction {
 	text-align: center;
@@ -34,4 +38,23 @@
 	@include animation(drawLine .7s linear);
 	@include animation-delay(.8s);
 	@include animation-fill-mode(both);
+}
+
+// resume
+.resume {
+	position: fixed;
+	top: rem(15);
+	right: rem(15);
+}
+
+.resume-link {
+	color: inherit;
+	text-transform: uppercase;
+	letter-spacing: rem(1);
+	@include type-scale(small);
+
+	&:hover, &:focus {
+		color: inherit;
+		text-decoration: none;
+	}
 }
