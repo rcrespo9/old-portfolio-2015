@@ -5,11 +5,11 @@
 h1, h2, h3, h4, h5 {
 	margin-top: 0;
 	margin-bottom: 0;
+	@include type-weight(regular);
 }
 
 h1 {
 	@include type-scale(xxxlarge);
-	@include type-weight(regular);
 }
 
 
@@ -27,7 +27,6 @@ h4, strong {
 
 p, dl {
 	@include type-scale(base);
-	@include type-weight(regular);
 }
 
 small {

@@ -9,10 +9,6 @@
 	@include justify-content(center);	
 }
 
-section {
-	z-index: 100;
-}
-
 // introduction
 .introduction {
 	text-align: center;
@@ -38,6 +34,15 @@ section {
 	@include animation(drawLine .7s linear);
 	@include animation-delay(.8s);
 	@include animation-fill-mode(both);
+}
+
+canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
 }
 
 // resume
