@@ -71,19 +71,22 @@ canvas {
 	}
 }
 
-.social-icons-wrap {
+
+.list-inline {
 	margin-bottom: 0;
-}
 
-.social-icon-item {
-	@include rotateIn();
+	.social-icon-item {
+		padding-left: rem(7);
+		padding-right: rem(7);
+		@include rotateIn();
 
-	@for $item from 1 through 4{
+		@for $item from 1 through 4{
 
-	  &:nth-child(#{$item}){ 
-	    @include animation-delay(#{$item / 10}s); 
-	  }
-	}	
+		  &:nth-child(#{$item}){ 
+		    @include animation-delay(#{$item / 10}s); 
+		  }
+		}	
+	}
 }
 
 .social-icon {
