@@ -237,6 +237,27 @@ module.exports = function (grunt) {
       }
     },
 
+  buildcontrol: {
+    options: {
+      dir: 'dist',
+      commit: true,
+      push: true,
+      message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+    },
+    pages: {
+      options: {
+        remote: 'git@github.com:rcrespo9/rcrespo9.github.io.git',
+        branch: 'gh-pages'
+      }
+    },
+    local: {
+      options: {
+        remote: '../',
+        branch: 'build'
+      }
+    }
+  },    
+
     // Reads HTML for usemin blocks to enable smart builds that automatically
     // concat, minify and revision files. Creates configurations in memory so
     // additional tasks can operate on them
