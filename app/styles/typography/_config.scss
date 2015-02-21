@@ -5,12 +5,12 @@
 $type-scale: (
     tiny: (
         font-size: rem(13),
-        base-lines: 0.5
+        base-lines: 1.25
     ),
 
     small: (
         font-size: rem(16),
-        base-lines: 0.75
+        base-lines: 1.25
     ),
 
     base: (
@@ -20,12 +20,12 @@ $type-scale: (
 
     medium: (
         font-size: rem(25),
-        base-lines: 1.2
+        base-lines: 1.25
     ),
 
     large: (
         font-size: rem(31),
-        base-lines: 1.2
+        base-lines: 1.25
     ),
 
     xlarge: (

@@ -41,11 +41,11 @@ app.particleEffect = (function() {
 
 			s.introLine.one(animationEvent, function() {
 
-				// s.theBody.particleground({
-				//     dotColor: particleColor,
-				//     lineColor: particleColor,
-				//     density: 20000
-				// });
+				s.theBody.particleground({
+				    dotColor: particleColor,
+				    lineColor: particleColor,
+				    density: 40000
+				});
 
 			});
 		}

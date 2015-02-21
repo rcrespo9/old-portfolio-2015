@@ -6,15 +6,19 @@
 $white: #fff;
 $dark-gray: #121212;
 
+// breakpoints
+$mobile-breakpoint-width: 520px;
+$mobile-breakpoint-height: 480px;
+
 
 /*------------------------------------*\
     #Bootstrap Variables
 \*------------------------------------*/
 // body
-$body-bg: $white;
+$body-bg: $dark-gray;
 
 // text
-$text-color: $dark-gray;
+$text-color: $white;
 
 // fonts
 $font-family-sans-serif: 'proxima-nova', Helvetica, Arial, sans-serif;

@@ -12,7 +12,7 @@
 }
 
 .intro-copy {
-	@include fadeInDown();	
+	@include fadeInDown();
 }
 
 .intro-lead {
@@ -21,7 +21,12 @@
 	font-family: $font-family-sans-serif;
 	@include type-scale(base);
 	@include fadeInDown();
-	@include animation-delay(.4s);	
+	@include animation-delay(.4s);
+
+	@media(max-width: $mobile-breakpoint-width) {
+		max-width: rem(200);
+		@include type-scale(small);
+	}	
 }
 
 .intro-line {
@@ -31,7 +36,15 @@
 	@include animation(drawLine .7s linear);
 	@include animation-delay(.8s);
 	@include animation-fill-mode(both);
+
+	@media(max-width: $mobile-breakpoint-width) {
+		height: rem(1.5);
+	}
 }
+
+/*------------------------------------*\
+    #Canvas Animation
+\*------------------------------------*/
 
 canvas {
 	position: fixed;
@@ -48,9 +61,14 @@ canvas {
 
 .social-icons-section {
 	position: absolute;
-	bottom: rem(60);
+	bottom: 60px;
 	width: 100%;
 	text-align: center;
+	@include transition(all .2s linear);
+
+	@media(max-height: $mobile-breakpoint-height) {
+		bottom: 30px;
+	}
 }
 
 .social-icons-wrap {
@@ -87,12 +105,19 @@ canvas {
 		border-color: $text-color;
 	}
 
-	&:not(:last-child) {
-		margin-right: rem(15);
-	}
-
 	i {
 		vertical-align: -9px;
+	}
+
+	@media(max-width: $mobile-breakpoint-width) {
+		width: 44px;
+		height: 44px;
+		font-size: rem(20);
+		border-width: 2px;
+
+		i {
+			vertical-align: -8px;
+		}
 	}
 
 }
