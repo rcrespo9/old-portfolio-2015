@@ -40,6 +40,10 @@
 	@media(max-width: $mobile-breakpoint-width) {
 		height: rem(1.5);
 	}
+
+	@media(max-width: $screen-xs-max) and (orientation: landscape) {
+		display: none;
+	}
 }
 
 /*------------------------------------*\
