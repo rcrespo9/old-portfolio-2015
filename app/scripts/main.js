@@ -54,6 +54,10 @@ app.particleEffect = (function() {
 
 }());
 
+app.updateBrowser = (function() {
+
+}());
+
 $(function() {
 	app.particleEffect.init();
 });
