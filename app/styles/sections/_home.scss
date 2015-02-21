@@ -98,6 +98,7 @@ canvas {
 	border-radius: 50%;
 	font-size: rem(25);
 	text-align: center;
+	padding: 2px;
 	@include transition(all .3s ease-in-out);
 
 	&:hover, &:focus {
@@ -109,7 +110,7 @@ canvas {
 	}
 
 	i {
-		vertical-align: -9px;
+		vertical-align: sub;
 	}
 
 	@media(max-width: $mobile-breakpoint-width) {
@@ -117,10 +118,6 @@ canvas {
 		height: 44px;
 		font-size: rem(20);
 		border-width: 2px;
-
-		i {
-			vertical-align: -8px;
-		}
 	}
 
 }
