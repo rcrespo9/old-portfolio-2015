@@ -17,13 +17,13 @@
 // animations
 @import 'helpers/animations';
 
+// layout
+@import 'layout/grid';
+
 // typography
 @import 'typography/mixins';
 @import 'typography/config';
 @import 'typography/base';
-
-// components
-@import 'components/social_icons';
 
 // sections
 @import 'sections/home';
