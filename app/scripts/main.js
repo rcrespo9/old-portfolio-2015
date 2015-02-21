@@ -44,17 +44,13 @@ app.particleEffect = (function() {
 				s.theBody.particleground({
 				    dotColor: particleColor,
 				    lineColor: particleColor,
-				    density: 20000
+				    density: 16000
 				});
 
 			});
 		}
 
 	};
-
-}());
-
-app.updateBrowser = (function() {
 
 }());
 
