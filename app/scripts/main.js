@@ -37,14 +37,14 @@ app.particleEffect = (function() {
 
 		startParticles: function() {
 			var animationEvent = this.whichAnimationEvent();
-			var particleColor = '#999';
+			var particleColor = '#34495e';
 
 			s.introLine.one(animationEvent, function() {
 
 				s.theBody.particleground({
 				    dotColor: particleColor,
 				    lineColor: particleColor,
-				    density: 40000
+				    density: 20000
 				});
 
 			});
