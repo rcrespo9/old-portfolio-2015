@@ -8,7 +8,7 @@ app.particleEffect = (function() {
 	return {
 		
 		settings: {
-			theBody: $('body'),
+			theBody: $('.canvas-anim'),
 			introLine: $('.intro-line')
 		},
 
