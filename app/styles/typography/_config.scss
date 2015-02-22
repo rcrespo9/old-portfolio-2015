@@ -1,0 +1,54 @@
+/*------------------------------------*\
+    #Typography Settings
+\*------------------------------------*/
+
+$type-scale: (
+    tiny: (
+        font-size: rem(13),
+        base-lines: 1.25
+    ),
+
+    small: (
+        font-size: rem(16),
+        base-lines: 1.25
+    ),
+
+    base: (
+        font-size: rem(20),
+        base-lines: 1.25
+    ),
+
+    medium: (
+        font-size: rem(25),
+        base-lines: 1.25
+    ),
+
+    large: (
+        font-size: rem(31),
+        base-lines: 1.25
+    ),
+
+    xlarge: (
+        font-size: rem(39),
+        base-lines: 1.25
+    ),
+
+    xxlarge: (
+        font-size: rem(49),
+        base-lines: 1.25
+    ),
+
+    xxxlarge: (
+        font-size: rem(61),
+        base-lines: 1.25
+    ),    
+);
+
+$type-weight: (
+    light: 300,
+    regular: 400,
+    medium: 500,
+    semi: 600,
+    bold: 700,
+    heavy: 800
+);

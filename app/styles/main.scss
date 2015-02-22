@@ -1,0 +1,27 @@
+// variables
+@import 'helpers/variables';
+@import 'helpers/functions';
+
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "animate.css-scss/animate.scss";
+// endbower
+
+// base
+@import 'base/global';
+
+// animations
+@import 'helpers/animations';
+
+// layout
+@import 'layout/grid';
+
+// typography
+@import 'typography/mixins';
+@import 'typography/config';
+@import 'typography/base';
+
+// sections
+@import 'sections/home';
+
