@@ -350,6 +350,9 @@ module.exports = function (grunt) {
           src: 'node_modules/apache-server-configs/dist/.htaccess',
           dest: '<%= config.dist %>/.htaccess'
         }, {
+        src: '<%= config.app %>/CNAME',
+        dest: '<%= config.dist %>/CNAME'
+        }, {
           expand: true,
           dot: true,
           cwd: '.',
