@@ -3,7 +3,8 @@
 \*------------------------------------*/
 
 #wrapper {
+	position: relative;
 	@include display(flex);
 	@include flex-direction(column);
-	@include justify-content(center);	
+	@include justify-content(center);
 }

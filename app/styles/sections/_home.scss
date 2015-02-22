@@ -6,11 +6,6 @@
 	text-align: center;
 }
 
-.logo {
-	max-width: rem(141);
-	height: auto;
-}
-
 .intro-copy {
 	@include fadeInDown();
 }
