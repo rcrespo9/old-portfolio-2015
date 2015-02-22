@@ -10,7 +10,8 @@
 }
 
 .no-flexbox, 
-.no-flexboxlegacy {
+.no-flexboxlegacy,
+.old-android {
 	#wrapper {
 		display: block;
 	}

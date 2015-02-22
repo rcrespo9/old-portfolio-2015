@@ -54,6 +54,29 @@ app.particleEffect = (function() {
 
 }());
 
+app.mobileBrowserFallback = (function() {
+	var s;
+
+	return {
+		settings: {
+			theHTML: $('html')
+		},
+
+		init: function() {
+			s = this.settings;
+			this.oldAndroid();
+		},
+
+		oldAndroid: function() {
+			if($.browser.android && $.browser.versionNumber < 4.4) {
+				s.theHTML.addClass('old-android');
+			}
+		}
+	};
+
+}());
+
 $(function() {
 	app.particleEffect.init();
+	app.mobileBrowserFallback.init();
 });

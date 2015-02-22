@@ -7,6 +7,7 @@
     "bourbon": "~4.2.0",
     "fontawesome": "~4.3.0",
     "particleground": "https://github.com/jnicol/particleground.git",
-    "animate.css-scss": "https://github.com/geoffgraham/animate.scss.git"
+    "animate.css-scss": "https://github.com/geoffgraham/animate.scss.git",
+    "jquery.browser": "https://github.com/gabceb/jquery-browser-plugin.git#~0.0.7"
   }
 }
