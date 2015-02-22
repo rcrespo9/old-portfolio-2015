@@ -111,7 +111,7 @@ canvas {
 	border-radius: 50%;
 	font-size: rem(25);
 	text-align: center;
-	padding: 2px;
+	padding: 4px;
 	@include transition(all .3s ease-in-out);
 
 	&:hover, &:focus {
