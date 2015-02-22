@@ -8,3 +8,10 @@
 	@include flex-direction(column);
 	@include justify-content(center);
 }
+
+.no-flexbox, 
+.no-flexboxlegacy {
+	#wrapper {
+		display: block;
+	}
+}
